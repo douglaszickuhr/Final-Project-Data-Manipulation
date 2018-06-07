@@ -1,0 +1,1331 @@
+Section,Division,Group,Class,Subclass,Description
+A,01,011,01113,0111301,Rice cultivation
+A,01,011,01113,0111302,Corn cultivation
+A,01,011,01113,0111303,Wheat cultivation
+A,01,011,01113,0111399,Growing of other cereals
+A,01,011,01121,0112101,Growing of herbaceous cotton
+A,01,011,01121,0112102,Jute cultivation
+A,01,011,01121,0112199,"Growing of other cropping fibers, not otherwise specified"
+A,01,011,01130,0113000,Growing of sugar cane
+A,01,011,01148,0114800,Smoking Crop
+A,01,011,01156,0115600,Soybean cultivation
+A,01,011,01164,0116401,Peanut farming
+A,01,011,01164,0116402,Sunflower cultivation
+A,01,011,01164,0116403,Castor cultivation
+A,01,011,01164,0116499,"Growing of other oil seeds of temporary tillage, nes"
+A,01,011,01199,0119901,Growing pineapples
+A,01,011,01199,0119902,Garlic cultivation
+A,01,011,01199,0119903,Growing of potatoes
+A,01,011,01199,0119904,Onion cultivation
+A,01,011,01199,0119905,Bean cultivation
+A,01,011,01199,0119906,Cultivation of manioc
+A,01,011,01199,0119907,Cultivation of melon
+A,01,011,01199,0119908,Cultivation of watermelon
+A,01,011,01199,0119909,Cultivation of ground tomato
+A,01,011,01199,0119999,Growing of other non-perennial crops
+A,01,012,01211,0121101,"Horticulture, except strawberries"
+A,01,012,01211,0121102,Strawberry cultivation
+A,01,012,01229,0122900,Growing of flowers and ornamental plants
+A,01,013,01318,0131800,Orange cultivation
+A,01,013,01326,0132600,Grape cultivation
+A,01,013,01334,0133401,Cultivation of açaí
+A,01,013,01334,0133402,Banana cultivation
+A,01,013,01334,0133403,Cashew farming
+A,01,013,01334,0133404,"Cultivation of citrus, except orange"
+A,01,013,01334,0133405,Coco coconut growing
+A,01,013,01334,0133406,Cultivation of guarana
+A,01,013,01334,0133407,Apple cultivation
+A,01,013,01334,0133408,Cultivation of papaya
+A,01,013,01334,0133409,Passion fruit cultivation
+A,01,013,01334,0133410,Mango cultivation
+A,01,013,01334,0133411,Cultivation of peach
+A,01,013,01334,0133499,"Growing of non-perennial crops, unspecified"
+A,01,013,01342,0134200,Coffee cultivation
+A,01,013,01351,0135100,Cacao cultivation
+A,01,013,01393,0139301,Growing of tea leaves
+A,01,013,01393,0139302,Growing of yerba mate
+A,01,013,01393,0139303,Cultivation of black pepper
+A,01,013,01393,0139304,"Growing of plants for condiment, other than pepper"
+A,01,013,01393,0139305,Palm oil cultivation
+A,01,013,01393,0139306,Rubber cultivation
+A,01,013,01393,0139399,"Growing of other permanent tillage systems, nes"
+A,01,014,01415,0141501,"Production of certified seed, other than grass forage"
+A,01,014,01415,0141502,Production of certified forage seeds for pasture
+A,01,014,01423,0142300,"Production of seedlings and other forms of plant propagation, certified"
+A,01,015,01512,0151201,Cattle breeding for cutting
+A,01,015,01512,0151202,Dairy cattle breeding
+A,01,015,01512,0151203,Cattle breeding except for cutting and milk
+A,01,015,01521,0152101,Creation of buffalos
+A,01,015,01521,0152102,Breeding of horses
+A,01,015,01521,0152103,Asinine and mule breeding
+A,01,015,01539,0153901,Goat breeding
+A,01,015,01539,0153902,"Sheep breeding, including wool"
+A,01,015,01547,0154700,Breeding of pigs
+A,01,015,01555,0155501,Breeding of chickens for cutting
+A,01,015,01555,0155502,Production of day-old chicks
+A,01,015,01555,0155503,"Breeding of other chickens, except for cut"
+A,01,015,01555,0155504,"Breeding of poultry, other than chickens"
+A,01,015,01555,0155505,Egg production
+A,01,015,01598,0159801,Beekeeping
+A,01,015,01598,0159802,Pets allowed
+A,01,015,01598,0159803,Creosote Creation
+A,01,015,01598,0159804,Creation of silkworms
+A,01,015,01598,0159899,Breeding of other animals
+A,01,016,01610,0161001,Service of spraying and control of agricultural pests
+A,01,016,01610,0161002,Tree pruning service for crops
+A,01,016,01610,0161003,"Ground preparation, cultivation and harvesting service"
+A,01,016,01610,0161099,"Support activities for agriculture, not elsewhere classified"
+A,01,016,01628,0162801,Artificial insemination service for animals
+A,01,016,01628,0162802,Sheep shearing service
+A,01,016,01628,0162803,Animal handling service
+A,01,016,01628,0162899,"Livestock support activities, not elsewhere classified"
+A,01,016,01636,0163600,Post-harvest activities
+A,01,017,01709,0170900,Hunting and related services
+A,02,021,02101,0210101,Eucalyptus cultivation
+A,02,021,02101,0210102,Cultivation of acacia-negra
+A,02,021,02101,0210103,Pinus cultivation
+A,02,021,02101,0210104,Cultivation of teak
+A,02,021,02101,0210105,"Growing of wood species other than eucalyptus, black wattle, pine and teak"
+A,02,021,02101,0210106,Growing of seedlings in forest nurseries
+A,02,021,02101,0210107,Extraction of wood in planted forests
+A,02,021,02101,0210108,Charcoal production - planted forests
+A,02,021,02101,0210109,Production of black acacia bark - planted forests
+A,02,021,02101,0210199,Production of non-timber products not previously specified in planted forests
+A,02,022,02209,0220901,Extraction of wood in native forests
+A,02,022,02209,0220902,Charcoal production - native forests
+A,02,022,02209,0220903,Collection of Brazil nuts in native forests
+A,02,022,02209,0220904,Latex collection in native forests
+A,02,022,02209,0220905,Collection of palm heart in native forests
+A,02,022,02209,0220906,Conservation of native forests
+A,02,022,02209,0220999,Collection of non-timber products not previously specified in native forests
+A,02,023,02306,0230600,Support activities for forestry production
+A,03,031,03116,0311601,Fishing for fish in salt water
+A,03,031,03116,0311602,Fishing for crustaceans and molluscs in salt water
+A,03,031,03116,0311603,Collection of other marine products
+A,03,031,03116,0311604,Support activities for saltwater fishing
+A,03,031,03124,0312401,Freshwater fish fishing
+A,03,031,03124,0312402,Fishing for freshwater crustaceans and molluscs
+A,03,031,03124,0312403,Collection of other freshwater aquatic products
+A,03,031,03124,0312404,Support activities for freshwater fishing
+A,03,032,03213,0321301,Fish farming in salt and brackish water
+A,03,032,03213,0321302,Creation of prawns in salt and brackish water
+A,03,032,03213,0321303,Creation of oysters and mussels in salt and brackish water
+A,03,032,03213,0321304,Creation of ornamental fish in salt and brackish water
+A,03,032,03213,0321305,Support activities for salt and brackish water aquaculture
+A,03,032,03213,0321399,Cultures and semi-cultivars of salt and brackish water aquaculture nes
+A,03,032,03221,0322101,Fish breeding in fresh water
+A,03,032,03221,0322102,Creation of freshwater prawns
+A,03,032,03221,0322103,Creation of oysters and mussels in fresh water
+A,03,032,03221,0322104,Ornamental fish breeding in fresh water
+A,03,032,03221,0322105,Ranching
+A,03,032,03221,0322106,Alligator breeding
+A,03,032,03221,0322107,Support activities for freshwater aquaculture
+A,03,032,03221,0322199,"Cultures and semi-cultivars of freshwater aquaculture, nes"
+A,05,050,05003,0500301,Extraction of coal
+A,05,050,05003,0500302,Mineral charcoal processing
+A,06,060,06000,0600001,Extraction of oil and natural gas
+A,06,060,06000,0600002,Extraction and processing of shale
+A,06,060,06000,0600003,Extraction and processing of bituminous sands
+A,07,071,07103,0710301,Extraction of iron ore
+A,07,071,07103,0710302,"Pelletizing, sintering and other processing of iron ore"
+A,07,072,07219,0721901,Extraction of aluminum ore
+A,07,072,07219,0721902,Processing of aluminum ore
+A,07,072,07227,0722701,Extraction of tin ore
+A,07,072,07227,0722702,Processing of tin ore
+A,07,072,07235,0723501,Extraction of manganese ore
+A,07,072,07235,0723502,Processing of manganese ore
+A,07,072,07243,0724301,Extraction of ore from precious metals
+A,07,072,07243,0724302,Processing of ore of precious metals
+A,07,072,07251,0725100,Extraction of radioactive minerals
+A,07,072,07294,0729401,Extraction of niobium or titanium ores
+A,07,072,07294,0729402,Extraction of tungsten ore
+A,07,072,07294,0729403,Extraction of nickel ore
+A,07,072,07294,0729404,"Extraction of ores from copper, lead, zinc and other non-ferrous metal ores, nes"
+A,07,072,07294,0729405,"Processing of copper, lead, zinc and other non-ferrous metal ores, nes"
+A,08,081,08100,0810001,Extraction of slate and associated processing
+A,08,081,08100,0810002,Granite extraction and associated processing
+A,08,081,08100,0810003,Marble extraction and associated processing
+A,08,081,08100,0810004,Extraction of limestone and dolomite and associated processing
+A,08,081,08100,0810005,Extraction of gypsum and kaolin
+A,08,081,08100,0810006,"Extraction of sand, gravel or gravel and associated processing"
+A,08,081,08100,0810007,Clay extraction and associated processing
+A,08,081,08100,0810008,Extraction of associated gravel and beneficiation
+A,08,081,08100,0810009,Extraction of basalt and associated processing
+A,08,081,08100,0810010,Processing of gypsum and kaolin associated with extraction
+A,08,081,08100,0810099,Extraction and crushing of stones and other materials for construction and associated processing
+A,08,089,08916,0891600,"Extraction of minerals for the manufacture of fertilizers, fertilizers and other chemical products"
+A,08,089,08924,0892401,Extraction of sea salt
+A,08,089,08924,0892402,Extraction of yolk
+A,08,089,08924,0892403,Refining and other salt processing
+A,08,089,08932,0893200,Extraction of gemstones (precious and semi-precious stones)
+A,08,089,08991,0899101,Graphite extraction
+A,08,089,08991,0899102,Extraction of quartz
+A,08,089,08991,0899103,Extraction of asbestos
+A,08,089,08991,0899199,Extraction of other non-metallic minerals not otherwise specified
+A,09,091,09106,0910600,Support activities for the extraction of oil and natural gas
+A,09,099,09904,0990401,Support activities for the extraction of iron ore
+A,09,099,09904,0990402,Support activities for the extraction of non-ferrous metal ores
+A,09,099,09904,0990403,Support activities for the extraction of non-metallic minerals
+C,10,101,10112,1011201,Refrigerator - slaughter of cattle
+C,10,101,10112,1011202,Refrigerator - slaughter of horses
+C,10,101,10112,1011203,Refrigerator - slaughter of sheep and goats
+C,10,101,10112,1011204,Refrigerator - slaughter of buffalos
+C,10,101,10112,1011205,"Slaughterhouse - slaughter of cattle under contract, except slaughter of pigs"
+C,10,101,10121,1012101,Bird slaughter
+C,10,101,10121,1012102,Slaughter of small animals
+C,10,101,10121,1012103,Refrigerator - slaughter of pigs
+C,10,101,10121,1012104,Slaughterhouse - slaughter of pigs under contract
+C,10,101,10139,1013901,Manufacture of meat products
+C,10,101,10139,1013902,Preparation of slaughter by-products
+C,10,102,10201,1020101,"Preservation of fish, crustaceans and molluscs"
+C,10,102,10201,1020102,"Manufacture of preserved fish, crustaceans and molluscs"
+C,10,103,10317,1031700,Manufacture of canned fruit
+C,10,103,10325,1032501,Manufacture of canned palm hearts
+C,10,103,10325,1032599,"Manufacture of canned vegetables and other vegetables, except palm"
+C,10,103,10333,1033301,"Manufacture of concentrates of fruit, vegetables and fruit juices"
+C,10,103,10333,1033302,"Manufacture of fruit juices, vegetables and legumes, except concentrates"
+C,10,104,10414,1041400,Manufacture of crude vegetable oils other than maize oil
+C,10,104,10422,1042200,"Manufacture of refined vegetable oils, other than maize"
+C,10,104,10431,1043100,Manufacture of margarine and other vegetable fats and oils of animal origin
+C,10,105,10511,1051100,Preparation of milk
+C,10,105,10520,1052000,Manufacture of dairy products
+C,10,105,10538,1053800,Manufacture of ice cream and other edible ice-cream
+C,10,106,10619,1061901,Processing of rice
+C,10,106,10619,1061902,Manufacture of rice products
+C,10,106,10627,1062700,Wheat milling and manufacture of by-products
+C,10,106,10635,1063500,Manufacture of manioc flour and
+C,10,106,10643,1064300,"Manufacture of corn flour and products, other than maize"
+C,10,106,10651,1065101,Manufacture of vegetable starches
+C,10,106,10651,1065102,Manufacture of crude corn oil
+C,10,106,10651,1065103,Manufacture of refined maize oil
+C,10,106,10660,1066000,Manufacture of animal feed
+C,10,106,10694,1069400,Grinding and manufacture of products of vegetable origin nes
+C,10,107,10716,1071600,Manufacture of raw sugar
+C,10,107,10724,1072401,Manufacture of refined cane sugar
+C,10,107,10724,1072402,Manufacture of cereals sugar (dextrose) and sugar beet
+C,10,108,10813,1081301,Coffee processing
+C,10,108,10813,1081302,Roasting and grinding of coffee
+C,10,108,10821,1082100,Manufacture of coffee products
+C,10,109,10911,1091101,Manufacture of bakery products
+C,10,109,10911,1091102,Manufacture of bakery and confectionery products with predominantly
+C,10,109,10929,1092900,Manufacture of biscuits and biscuits
+C,10,109,10937,1093701,Manufacture of cocoa and chocolate products
+C,10,109,10937,1093702,"Manufacture of candied fruits, mints and the like"
+C,10,109,10945,1094500,Manufacture of macaroni
+C,10,109,10953,1095300,"Manufacture of spices, seasonings, herbs and spices"
+C,10,109,10961,1096100,Manufacture of ready-made foods and dishes
+C,10,109,10996,1099601,Manufacture of vinegar
+C,10,109,10996,1099602,Manufacture of food powders
+C,10,109,10996,1099603,Manufacture of yeasts and yeasts
+C,10,109,10996,1099604,Manufacture of ice
+C,10,109,10996,1099605,"Manufacture of products for infusion (tea, maté, etc.)"
+C,10,109,10996,1099606,Manufacture of natural and artificial sweeteners
+C,10,109,10996,1099607,Manufacture of food products and food supplements
+C,10,109,10996,1099699,Manufacture of other food products nec
+C,11,111,11119,1111901,Manufacture of sugar cane brandy
+C,11,111,11119,1111902,Manufacture of other distilled spirits
+C,11,111,11127,1112700,Manufacture of wine
+C,11,111,11135,1113501,"Manufacture of malt, including malt whiskey"
+C,11,111,11135,1113502,Manufacture of beers and draft beer
+C,11,112,11216,1121600,Manufacture of bottled water
+C,11,112,11224,1122401,Manufacture of soft drinks
+C,11,112,11224,1122402,Manufacture of ready-made mate tea and other
+C,11,112,11224,1122403,"Manufacture of soft drinks, syrups and powders, other than soda"
+C,11,112,11224,1122404,Manufacture of isotonic drinks
+C,11,112,11224,1122499,Manufacture of other non-alcoholic beverages
+C,12,121,12107,1210700,Industrial smoke processing
+C,12,122,12204,1220401,Manufacture of cigarettes
+C,12,122,12204,1220402,Manufacture of cigarettes and cigars
+C,12,122,12204,1220403,Manufacture of filters for cigarettes
+C,12,122,12204,1220499,"Manufacture of other tobacco products, except cigarettes, cigarillos and cigars"
+C,13,131,13111,1311100,Preparation and spinning of cotton fibers
+C,13,131,13120,1312000,"Preparation and spinning of natural textile fibers, other than cotton"
+C,13,131,13138,1313800,Wiring of artificial and synthetic fibers
+C,13,131,13146,1314600,Manufacture of sewing and embroidery lines
+C,13,132,13219,1321900,Weaving of cotton yarn
+C,13,132,13227,1322700,"Weaving of natural textile fibers, other than cotton"
+C,13,132,13235,1323500,Weaving of artificial and synthetic fibers
+C,13,133,13308,1330800,Manufacture of knitted and crocheted fabrics
+C,13,134,13405,1340501,"Stamping and texturing on yarns, fabrics, textile articles and garments"
+C,13,134,13405,1340502,"Bleaching, dyeing and twisting in yarns, fabrics, textile articles and garments"
+C,13,134,13405,1340599,"Other finishing services in yarns, fabrics, textile goods and garments"
+C,13,135,13511,1351100,Manufacture of other fabricated metal products
+C,13,135,13529,1352900,Manufacture of upholstery products
+C,13,135,13537,1353700,Manufacture of paper and paper products
+C,13,135,13545,1354500,Manufacture of special fabrics including artifacts
+C,13,135,13596,1359600,Manufacture of other textiles nec
+C,14,141,14118,1411801,Clothing manufacture
+C,14,141,14118,1411802,Underwear Faction
+C,14,141,14126,1412601,"Manufacture of garments, except underwear and tailor-made garments"
+C,14,141,14126,1412602,"Custom tailoring of garments, except underwear"
+C,14,141,14126,1412603,"Faction of garment parts, except underwear"
+C,14,141,14134,1413401,"Manufacture of professional clothes, except custom made"
+C,14,141,14134,1413402,Tailoring of professional clothing
+C,14,141,14134,1413403,Professional clothing faction
+C,14,141,14142,1414200,"Manufacture of wearing apparel, except for safety and protection"
+C,14,142,14215,1421500,Manufacture of socks
+C,14,142,14223,1422300,"Manufacture of articles of apparel, knitted or crocheted, other than knitted or crocheted"
+C,15,151,15106,1510600,Tanning and other leather preparations
+C,15,152,15211,1521100,"Manufacture of travel goods, handbags and the like"
+C,15,152,15297,1529700,Manufacture of leather articles not elsewhere classified
+C,15,153,15319,1531901,Manufacture of leather footwear
+C,15,153,15319,1531902,Finishing of contract leather shoes
+C,15,153,15327,1532700,Manufacture of sneakers
+C,15,153,15335,1533500,Manufacture of synthetic leather footwear
+C,15,153,15394,1539400,Manufacture of footwear of material not otherwise specified
+C,15,154,15408,1540800,"Manufacture of parts for footwear, of any material"
+C,16,161,16102,1610201,Sawmills with wood split
+C,16,161,16102,1610202,Sawmills without unfolding of wood
+C,16,162,16218,1621800,"Manufacture of veneer sheet and plywood, pressed and bonded"
+C,16,162,16226,1622601,Manufacture of prefabricated wooden houses
+C,16,162,16226,1622602,Manufacture of wooden frames and wooden parts for industrial and commercial installations
+C,16,162,16226,1622699,Manufacture of other construction metal products
+C,16,162,16234,1623400,Manufacture of other fabricated metal products
+C,16,162,16293,1629301,"Manufacture of other products of wood, except furniture"
+C,16,162,16293,1629302,"Manufacture of articles of cork, of bamboo, straw, wicker and other woven materials, except furniture"
+C,17,171,17109,1710900,Manufacture of pulp and paper pulp
+C,17,172,17214,1721400,Manufacture of paper
+C,17,172,17222,1722200,Manufacture of paper and paperboard
+C,17,173,17311,1731100,Manufacture of paper products
+C,17,173,17320,1732000,Manufacture of paper and paper products
+C,17,173,17338,1733800,Manufacture of corrugated board and sheet metal products
+C,17,174,17419,1741901,Manufacture of continuous forms
+C,17,174,17419,1741902,"Manufacture of paper products, paperboard, cardboard and corrugated paper for commercial and office use"
+C,17,174,17427,1742701,Manufacture of disposable diapers
+C,17,174,17427,1742702,Manufacture of sanitary napkins
+C,17,174,17427,1742799,Manufacture of paper products for household and sanitary purposes
+C,17,174,17494,1749400,"Manufacture of pulp, paper, paperboard, corrugated paperboard and cardboard products not elsewhere classified"
+C,18,181,18113,1811301,Printing of newspapers
+C,18,181,18113,1811302,"Printing of books, magazines and other periodicals"
+C,18,181,18121,1812100,Printing of security material
+C,18,181,18130,1813001,Printing of advertising material
+C,18,181,18130,1813099,Printing of material for other uses
+C,18,182,18211,1821100,Prepress Services
+C,18,182,18229,1822901,Binding and laminating services
+C,18,182,18229,1822999,"Graphic finishing services, except bookbinding and laminating"
+C,18,183,18300,1830001,Sound reproduction on any media
+C,18,183,18300,1830002,Video playback on any media
+C,18,183,18300,1830003,Software playback on any media
+C,19,191,19101,1910100,Coquerias
+C,19,192,19217,1921700,Manufacture of petroleum refining products
+C,19,192,19225,1922501,Formulation of fuels
+C,19,192,19225,1922502,Rerouting of lubricating oils
+C,19,192,19225,1922599,"Manufacture of other petroleum products, except products of refining"
+C,19,193,19314,1931400,Manufacture of alcohol
+C,19,193,19322,1932200,"Manufacture of biofuels, except alcohol"
+C,20,201,20118,2011800,Manufacture of chlorine and alkalis
+C,20,201,20126,2012600,Manufacture of fertilizers
+C,20,201,20134,2013401,Manufacture of fertilizers and organo-mineral fertilizers
+C,20,201,20134,2013402,"Manufacture of fertilizers, except organo-mineral"
+C,20,201,20142,2014200,Manufacture of industrial gases
+C,20,201,20193,2019301,Elaboration of nuclear fuels
+C,20,201,20193,2019399,Manufacture of other inorganic chemicals nec
+C,20,202,20215,2021500,Manufacture of basic petrochemical products
+C,20,202,20223,2022300,"Manufacture of intermediates for plasticizers, resins and fibers"
+C,20,202,20291,2029100,Manufacture of organic chemicals
+C,20,203,20312,2031200,Manufacture of thermoplastic resins
+C,20,203,20321,2032100,Manufacture of thermosetting resins
+C,20,203,20339,2033900,Manufacture of elastomers
+C,20,204,20401,2040100,Manufacture of artificial and synthetic fibers
+C,20,205,20517,2051700,Manufacture of pesticides
+C,20,205,20525,2052500,Manufacture of disinfectants
+C,20,206,20614,2061400,Manufacture of synthetic soaps and detergents
+C,20,206,20622,2062200,Manufacture of cleaning and polishing products
+C,20,206,20631,2063100,"Manufacture of cosmetics, perfumery and toilet preparations"
+C,20,207,20711,2071100,"Manufacture of paints, varnishes, enamels and lacquers"
+C,20,207,20720,2072000,Manufacture of printing inks
+C,20,207,20738,2073800,"Manufacture of water-proofing materials, solvents and related products"
+C,20,209,20916,2091600,Manufacture of adhesives and sealants
+C,20,209,20924,2092401,"Manufacture of explosives, explosives and detonators"
+C,20,209,20924,2092402,Manufacture of pyrotechnic articles
+C,20,209,20924,2092403,Manufacture of safety matches
+C,20,209,20932,2093200,Manufacture of additives for industrial use
+C,20,209,20941,2094100,Manufacture of catalysts
+C,20,209,20991,2099101,"Manufacture of plates, films, papers and other photographic materials and chemicals"
+C,20,209,20991,2099199,Manufacture of other chemical products nec
+C,21,211,21106,2110600,Manufacture of pharmaceutical products
+C,21,212,21211,2121101,Manufacture of allopathic medicinal products for human use
+C,21,212,21211,2121102,Manufacture of homeopathic medicinal products for human use
+C,21,212,21211,2121103,Manufacture of phytotherapeutic medicinal products for human use
+C,21,212,21220,2122000,Manufacture of veterinary preparations
+C,21,212,21238,2123800,Manufacture of pharmaceutical preparations
+C,22,221,22111,2211100,Manufacture of tires and inner tubes
+C,22,221,22129,2212900,Repairs of used tires
+C,22,221,22196,2219600,Manufacture of rubber products not elsewhere classified
+C,22,222,22218,2221800,Manufacture of plastics and metal products
+C,22,222,22226,2222600,Manufacture of plastic packaging
+C,22,222,22234,2223400,Manufacture of plastic pipes and fittings for construction purposes
+C,22,222,22293,2229301,Manufacture of articles of plastics for personal and domestic use
+C,22,222,22293,2229302,Manufacture of other plastic products
+C,22,222,22293,2229303,"Manufacture of articles of plastics for construction, except pipes and fittings"
+C,22,222,22293,2229399,"Manufacture of articles of other plastics, not otherwise specified"
+C,23,231,23117,2311700,Manufacture of flat glass and security glass
+C,23,231,23125,2312500,Manufacture of glass containers
+C,23,231,23192,2319200,Manufacture of glassware
+C,23,232,23206,2320600,Manufacture of cement
+C,23,233,23303,2330301,"Manufacture of prefabricated reinforced concrete structures, in series and on demand"
+C,23,233,23303,2330302,Manufacture of other fabricated metal products
+C,23,233,23303,2330303,Manufacture of fiber-cement products for construction purposes
+C,23,233,23303,2330304,Manufacture of prefabricated concrete houses
+C,23,233,23303,2330305,Preparation of concrete and mortar for construction
+C,23,233,23303,2330399,"Manufacture of other articles of concrete, cement, asbestos-cement, gypsum and similar materials"
+C,23,234,23419,2341900,Manufacture of refractory products
+C,23,234,23427,2342701,Manufacture of tiles and floors
+C,23,234,23427,2342702,"Manufacture of ceramic and clay articles for use in construction, except tiles and floors"
+C,23,234,23494,2349401,Manufacture of ceramic sanitary material
+C,23,234,23494,2349499,Manufacture of non-refractory ceramic products nec
+C,23,239,23915,2391501,"Crushing of stones, except for extraction"
+C,23,239,23915,2391502,"Building stone apparatus, except associated with extraction"
+C,23,239,23915,2391503,"Plastering and working of marble, granite, slate and other stones"
+C,23,239,23923,2392300,Manufacture of lime and plaster
+C,23,239,23991,2399101,"Decoration, stoning, engraving, vitrification and other works in ceramics, crockery, glass and glass"
+C,23,239,23991,2399102,Manufacture of abrasives
+C,23,239,23991,2399199,Manufacture of other non-metallic mineral products
+C,24,241,24113,2411300,Pig iron production
+C,24,241,24121,2412100,Production of ferroalloys
+C,24,242,24211,2421100,Production of semi-finished steel
+C,24,242,24229,2422901,"Production of flat-rolled carbon steel, whether or not coated"
+C,24,242,24229,2422902,Production of special steel flat rolled products
+C,24,242,24237,2423701,Manufacture of seamless steel tubes
+C,24,242,24237,2423702,"Production of rolled steel, other than tubes"
+C,24,242,24245,2424501,Production of steel wires
+C,24,242,24245,2424502,"Production of re-rolled, drawn and profiled steel, except wire"
+C,24,243,24318,2431800,Manufacture of welded steel tubes
+C,24,243,24393,2439300,Production of other iron and steel pipes
+C,24,244,24415,2441501,Production of aluminum and its alloys in primary forms
+C,24,244,24415,2441502,Production of rolled aluminum
+C,24,244,24423,2442300,Metallurgy of precious metals
+C,24,244,24431,2443100,Copper metallurgy
+C,24,244,24491,2449101,Production of zinc in primary forms
+C,24,244,24491,2449102,Production of zinc rolled products
+C,24,244,24491,2449103,Production of anodes for electroplating
+C,24,244,24491,2449199,"Metallurgy of other non-ferrous metals and their alloys, not otherwise specified"
+C,24,245,24512,2451200,Cast iron and steel
+C,24,245,24521,2452100,Casting of non-ferrous metals and their alloys
+C,25,251,25110,2511000,Manufacture of metal structures
+C,25,251,25128,2512800,Manufacture of metal frames
+C,25,251,25136,2513600,Manufacture of builders' carpentry and joinery
+C,25,252,25217,2521700,"Manufacture of tanks, reservoirs, metal and central heating boilers"
+C,25,252,25225,2522500,"Manufacture of steam generating boilers, except central heating and vehicle"
+C,25,253,25314,2531401,Production of steel slabs
+C,25,253,25314,2531402,Manufacture of non-ferrous metals and their alloys
+C,25,253,25322,2532201,Manufacture of stamped metal articles
+C,25,253,25322,2532202,Powder metallurgy
+C,25,253,25390,2539001,"Machining, Turning and Welding Services"
+C,25,253,25390,2539002,Metal treatment and coating services
+C,25,254,25411,2541100,Manufacture of cutlery
+C,25,254,25420,2542000,Manufacture of articles of iron or steel
+C,25,254,25438,2543800,Manufacturing of tools
+C,25,255,25501,2550101,"Manufacture of heavy military equipment, except military combat vehicles"
+C,25,255,25501,2550102,Manufacture of other firearms and other weapons
+C,25,259,25918,2591800,Manufacture of metal containers
+C,25,259,25926,2592601,Manufacture of standardized wire drawing products
+C,25,259,25926,2592602,Manufacture of other than standardized wire drawing products
+C,25,259,25934,2593400,Manufacture of metal products for household and personal use
+C,25,259,25993,2599301,Services in the confection of metal frames for construction
+C,25,259,25993,2599302,Metal cutting and bending service
+C,25,259,25993,2599399,"Manufacture of other fabricated metal products, not elsewhere classified"
+C,26,261,26108,2610800,Manufacture of electronic components
+C,26,262,26213,2621300,Manufacture of computer equipment
+C,26,262,26221,2622100,Manufacture of computer peripherals
+C,26,263,26311,2631100,"Manufacture of communication equipment, parts and accessories"
+C,26,263,26329,2632900,"Manufacture of telephone and other communication equipment, parts and accessories"
+C,26,264,26400,2640000,"Manufacture of audio, video recording, reception and reproducing apparatus"
+C,26,265,26515,2651500,"Manufacture of measuring, testing and control apparatus and equipment"
+C,26,265,26523,2652300,Manufacture of chronometers and clocks
+C,26,266,26604,2660400,Manufacture of electromedical and electrotherapeutic equipment and irradiation equipment
+C,26,267,26701,2670101,"Manufacture of optical equipment, instruments and accessories"
+C,26,267,26701,2670102,"Manufacture of photographic, cinematographic,"
+C,26,268,26809,2680900,"Manufacture of virgin, magnetic and optical media"
+C,27,271,27104,2710401,"Manufacture of electric motors, generators and transformers"
+C,27,271,27104,2710402,"Manufacture of transformers, inductors, converters, synchronizers and the like, parts and fittings"
+C,27,271,27104,2710403,"Manufacture of electric motors, parts and accessories"
+C,27,272,27210,2721000,"Manufacture of batteries, electric accumulators, except for motor vehicles"
+C,27,272,27228,2722801,Manufacture of batteries and accumulators for motor vehicles
+C,27,272,27228,2722802,Reconditioning of batteries and accumulators for motor vehicles
+C,27,273,27317,2731700,Manufacture of electricity distribution and control apparatus and equipment
+C,27,273,27325,2732500,Manufacture of other electrical equipment
+C,27,273,27333,2733300,"Manufacture of electrical wires, cables and conductors, insulated"
+C,27,274,27406,2740601,Manufacture of lamps
+C,27,274,27406,2740602,Manufacture of lamps and lighting fittings
+C,27,275,27511,2751100,"Manufacture of cookers, refrigerators and washing machines and dryers for domestic use, parts and accessories"
+C,27,275,27597,2759701,"Manufacture of electrical appliances for personal use, parts and accessories"
+C,27,275,27597,2759799,"Manufacture of other household appliances, not elsewhere classified"
+C,27,279,27902,2790201,"Manufacture of electrodes, contacts and other articles of coal and graphite for electrical use, electromagnets and insulators"
+C,27,279,27902,2790202,Manufacture of signaling and alarm equipment
+C,27,279,27902,2790299,"Manufacture of other electrical equipment, not specified elsewhere"
+C,28,281,28119,2811900,"Manufacture of engines and turbines, parts and fittings, except for airplanes and road vehicles"
+C,28,281,28127,2812700,"Manufacture of hydraulic and pneumatic equipment, parts and accessories, except valves"
+C,28,281,28135,2813500,"Manufacture of valves and similar articles, parts and accessories"
+C,28,281,28143,2814301,"Manufacture of compressors for industrial use, parts and accessories"
+C,28,281,28143,2814302,"Manufacture of compressors for non-industrial use, parts and fittings"
+C,28,281,28151,2815101,Manufacture of bearings for industrial purposes
+C,28,281,28151,2815102,"Manufacture of transmission equipment for industrial purposes, other than bearings"
+C,28,282,28216,2821601,"Manufacture of industrial ovens, appliances and non-electrical equipment for thermal installations, parts and fittings"
+C,28,282,28216,2821602,"Manufacture of industrial stoves and ovens for industrial purposes, parts and accessories"
+C,28,282,28224,2822401,"Manufacture of machinery, equipment and apparatus for the transport and elevating of people, parts and accessories"
+C,28,282,28224,2822402,"Manufacture of machinery, equipment and apparatus for the transport and elevating of loads, parts and accessories"
+C,28,282,28232,2823200,"Manufacture of machinery and equipment for the industrial and commercial refrigeration and cooling, parts and fittings"
+C,28,282,28241,2824101,Manufacture of air conditioning and ventilation equipment for industrial use
+C,28,282,28241,2824102,Manufacture of air conditioners and appliances for non-industrial use
+C,28,282,28259,2825900,"Manufacture of machinery and equipment for basic and environmental sanitation, parts and accessories"
+C,28,282,28291,2829101,"Manufacture of typewriters, calculators and other non-electronic office equipment, parts and accessories"
+C,28,282,28291,2829199,"Manufacture of other general purpose machinery and equipment, not elsewhere classified"
+C,28,283,28313,2831300,"Manufacture of agricultural tractors, spare parts and accessories"
+C,28,283,28321,2832100,"Manufacture of agricultural irrigation equipment, parts and accessories"
+C,28,283,28330,2833000,"Manufacture of machinery and equipment for agriculture and livestock, parts and accessories, except for irrigation"
+C,28,284,28402,2840200,"Manufacture of machine tools, parts and accessories"
+C,28,285,28518,2851800,"Manufacture of machinery and equipment for prospecting and extraction of petroleum,"
+C,28,285,28526,2852600,"Manufacture of other machinery and equipment for mineral extraction, parts and accessories, except for oil extraction"
+C,28,285,28534,2853400,"Manufacture of tractors, parts and accessories"
+C,28,285,28542,2854200,"Manufacture of machinery and equipment for earthmoving, paving and construction, parts and accessories, except tractors"
+C,28,286,28615,2861500,"Manufacture of machinery for metalworking, parts and accessories except machine tools"
+C,28,286,28623,2862300,"Manufacture of machinery and equipment for the food, beverages and tobacco industries, parts and accessories"
+C,28,286,28631,2863100,"Manufacture of machinery and equipment for the textile industry, parts and accessories"
+C,28,286,28640,2864000,"Manufacture of machinery and equipment for the clothing, leather and footwear industry, parts and accessories"
+C,28,286,28658,2865800,"Manufacture of machinery and equipment for the pulp, paper and paperboard industries and related artifacts, parts and accessories"
+C,28,286,28666,2866600,"Manufacture of machinery and equipment for the plastics industry, parts and accessories"
+C,28,286,28691,2869100,Manufacture of machinery and equipment for specific industrial use
+C,29,291,29107,2910701,"Manufacture of cars, vans and SUV's"
+C,29,291,29107,2910702,"Manufacture of motorized chassis for cars, vans and utility vehicles"
+C,29,291,29107,2910703,"Manufacture of engines for cars, vans and utility vehicles"
+C,29,292,29204,2920401,Manufacture of trucks and buses
+C,29,292,29204,2920402,Manufacture of engines for trucks and buses
+C,29,293,29301,2930101,"Manufacture of cabins, buses and coaches"
+C,29,293,29301,2930102,Manufacture of bus bodies
+C,29,293,29301,2930103,"Manufacture of cabins, coachwork and trailers for other motor vehicles, except trucks and buses"
+C,29,294,29417,2941700,Manufacture of parts and accessories for motor vehicles
+C,29,294,29425,2942500,Manufacture of parts and accessories for the systems of running and transmission of motor vehicles
+C,29,294,29433,2943300,Manufacture of parts and accessories for the brake system of motor vehicles
+C,29,294,29441,2944100,Manufacture of parts and accessories for the steering and suspension system of motor vehicles
+C,29,294,29450,2945000,"Manufacture of electrical and electronic equipment for motor vehicles, except batteries"
+C,29,294,29492,2949201,Manufacture of benches and upholstery for motor vehicles
+C,29,294,29492,2949299,Manufacture of other parts and accessories for motor vehicles not elsewhere classified
+C,29,295,29506,2950600,Reconditioning and recovery of engines for motor vehicles
+C,30,301,30113,3011301,Construction of large vessels
+C,30,301,30113,3011302,"Construction of vessels for commercial and special use, except large"
+C,30,301,30121,3012100,Construction of boats for sport and leisure
+C,30,303,30318,3031800,"Manufacture of locomotives, wagons and other rolling stock"
+C,30,303,30326,3032600,Manufacture of parts and accessories for railway vehicles
+C,30,304,30415,3041500,Manufacture of aircraft
+C,30,304,30423,3042300,"Manufacture of turbines, engines and other components and parts for aircraft"
+C,30,305,30504,3050400,Manufacture of military vehicles
+C,30,309,30911,3091101,Manufacture of motorcycles
+C,30,309,30911,3091102,Manufacture of parts and accessories for motorcycles
+C,30,309,30920,3092000,"Manufacture of non-motorized bicycles and tricycles, parts and fittings"
+C,30,309,30997,3099700,"Manufacture of transport equipment, not elsewhere classified"
+C,31,310,31012,3101200,Manufacture of wooden furniture
+C,31,310,31021,3102100,Manufacture of prefabricated metal furniture
+C,31,310,31039,3103900,Manufacture of other materials except wood and metal
+C,31,310,31047,3104700,Manufacture of mattresses
+C,32,321,32116,3211601,Stoning of gems
+C,32,321,32116,3211602,Manufacture of jewelery and related articles
+C,32,321,32116,3211603,Coin and medal coinage
+C,32,321,32124,3212400,Manufacture of jewelery and similar articles
+C,32,322,32205,3220500,"Manufacture of musical instruments, parts and accessories"
+C,32,323,32302,3230200,Manufacture of fishing and sporting goods
+C,32,324,32400,3240001,Manufacture of electronic games
+C,32,324,32400,3240002,"Manufacture of pool, billiard and accessories tables not associated with the rental"
+C,32,324,32400,3240003,"Manufacture of pool, billiards and accessories associated with rental"
+C,32,324,32400,3240099,Manufacture of other toys and games not elsewhere classified
+C,32,325,32507,3250701,"Manufacture of non-electronic instruments and utensils for medical, surgical, dental and laboratory use"
+C,32,325,32507,3250702,"Manufacture of furniture for medical, surgical, dental and laboratory use"
+C,32,325,32507,3250703,Manufacture of apparatus and equipment for correction of physical defects and orthopedic appliances in general to order
+C,32,325,32507,3250704,"Manufacture of apparatus and equipment for correction of physical defects and orthopedic appliances in general, except under the order"
+C,32,325,32507,3250705,Manufacture of medical and dental materials
+C,32,325,32507,3250706,Services of dental prostheses
+C,32,325,32507,3250707,Manufacture of optical goods
+C,32,325,32507,3250709,Optical laboratory service
+C,32,329,32914,3291400,"Manufacture of brushes, brushes and brooms"
+C,32,329,32922,3292201,Manufacture of protective and safety clothing
+C,32,329,32922,3292202,Manufacture of equipment and accessories for personal and professional safety
+C,32,329,32990,3299001,Manufacture of umbrellas and the like
+C,32,329,32990,3299002,"Manufacture of pens, pencils and other office requisites"
+C,32,329,32990,3299003,"Manufacture of letters, envelopes and plaques of any material, other than light"
+C,32,329,32990,3299004,Manufacture of illuminated signboards and panels
+C,32,329,32990,3299005,Manufacture of sewing thread
+C,32,329,32990,3299006,"Manufacture of candles, including decorative candles"
+C,32,329,32990,3299099,Manufacture of miscellaneous goods
+C,33,331,33112,3311200,"Maintenance and repair of tanks, reservoirs and boilers, except for vehicles"
+C,33,331,33121,3312102,"Maintenance and repair of measuring, testing and control apparatus and instruments"
+C,33,331,33121,3312103,Maintenance and repair of electromedical and electrotherapeutic apparatuses and irradiation equipment
+C,33,331,33121,3312104,Maintenance and repair of optical equipment and instruments
+C,33,331,33139,3313901,"Maintenance and repair of generators, transformers and electric motors"
+C,33,331,33139,3313902,"Maintenance and repair of electric batteries and accumulators, except for vehicles"
+C,33,331,33139,3313999,"Maintenance and repair of electrical machinery, apparatus and equipment"
+C,33,331,33147,3314701,Maintenance and repair of non-electric driving machines
+C,33,331,33147,3314702,"Maintenance and repair of hydraulic and pneumatic equipment, except valves"
+C,33,331,33147,3314703,Maintenance and repair of industrial valves
+C,33,331,33147,3314704,Maintenance and repair of compressors
+C,33,331,33147,3314705,Maintenance and repair of industrial transmission equipment
+C,33,331,33147,3314706,"Maintenance and repair of machinery, apparatus and equipment for thermal installations"
+C,33,331,33147,3314707,Maintenance and repair of refrigeration and ventilation machinery and equipment for industrial and commercial use
+C,33,331,33147,3314708,"Maintenance and repair of machinery, equipment and apparatus for transport and lifting of loads"
+C,33,331,33147,3314709,"Maintenance and repair of typewriters, calculators and other non-electronic office equipment"
+C,33,331,33147,3314710,Maintenance and repair of machinery and equipment of general use not specified above
+C,33,331,33147,3314711,Maintenance and repair of agricultural and livestock machinery and equipment
+C,33,331,33147,3314712,Maintenance and repair of agricultural tractors
+C,33,331,33147,3314713,Maintenance and repair of machine tools
+C,33,331,33147,3314714,Maintenance and repair of machinery and equipment for prospecting and extraction of oil
+C,33,331,33147,3314715,"Maintenance and repair of machinery and equipment for use in mineral extraction, except for oil extraction"
+C,33,331,33147,3314716,"Maintenance and repair of tractors, except agricultural"
+C,33,331,33147,3314717,"Maintenance and repair of earthmoving, paving and construction machinery and equipment, except tractors"
+C,33,331,33147,3314718,"Maintenance and repair of machines for the metallurgical industry, except machine tools"
+C,33,331,33147,3314719,"Maintenance and repair of machinery and equipment for the food, beverage and tobacco industries"
+C,33,331,33147,3314720,"Maintenance and repair of machinery and equipment for the textile, apparel, leather and footwear industry"
+C,33,331,33147,3314721,"Maintenance and repair of machinery and equipment for the pulp, paper and cardboard industry and artifacts"
+C,33,331,33147,3314722,Maintenance and repair of machinery and equipment for the plastics industry
+C,33,331,33147,3314799,Maintenance and repair of other industrial machinery and equipment nes
+C,33,331,33155,3315500,Maintenance and repair of railway vehicles
+C,33,331,33163,3316301,"Maintenance and repair of aircraft, except maintenance on the runway"
+C,33,331,33163,3316302,Maintenance of aircraft on the runway
+C,33,331,33171,3317101,Maintenance and repair of floating vessels and structures
+C,33,331,33171,3317102,Maintenance and repair of boats for sport and leisure
+C,33,331,33198,3319800,Maintenance and repair of equipment and products nes
+C,33,332,33210,3321000,Installation of industrial machinery and equipment
+C,33,332,33295,3329501,Assembly services of furniture of any material
+C,33,332,33295,3329599,Installation of other equipment not previously specified
+D,35,351,35115,3511501,Electricity generation
+D,35,351,35115,3511502,Activities of coordination and control of the operation of the generation and transmission of electric energy
+D,35,351,35123,3512300,Transmission of electricity
+D,35,351,35131,3513100,Wholesale trade of electricity
+D,35,351,35140,3514000,Distribution of electricity
+D,35,352,35204,3520401,Gas production; natural gas processing
+D,35,352,35204,3520402,Distribution of gaseous fuels through urban networks
+D,35,353,35301,3530100,"Production and distribution of steam, hot water and air conditioning"
+E,36,360,36006,3600601,"Water collection, treatment and distribution"
+E,36,360,36006,3600602,Water distribution by trucks
+E,37,370,37011,3701100,Management of sewage networks
+E,37,370,37029,3702900,"Activities related to sewage, except network management"
+E,38,381,38114,3811400,Collection of non-hazardous waste
+E,38,381,38122,3812200,Collection of hazardous waste
+E,38,382,38211,3821100,Treatment and disposal of non-hazardous waste
+E,38,382,38220,3822000,Treatment and disposal of hazardous waste
+E,38,383,38319,3831901,Recovery of aluminum scrap
+E,38,383,38319,3831999,"Recovery of metallic materials, except aluminum"
+E,38,383,38327,3832700,Recovery of plastic materials
+E,38,383,38394,3839401,Composting plants
+E,38,383,38394,3839499,Recovery of materials not previously specified
+E,39,390,39005,3900500,Decontamination and other waste management services
+F,41,411,41107,4110700,Incorporation of real estate projects
+F,41,412,41204,4120400,Building Construction
+F,42,421,42111,4211101,Construction of highways and railways
+F,42,421,42111,4211102,Paint for signs on roads and airports
+F,42,421,42120,4212000,Construction of special works of art
+F,42,421,42138,4213800,"Works of urbanization - streets, squares and sidewalks"
+F,42,422,42219,4221901,Construction of dams and dams for electric power generation
+F,42,422,42219,4221902,Construction of electricity distribution stations and networks
+F,42,422,42219,4221903,Maintenance of electricity distribution networks
+F,42,422,42219,4221904,Construction of telecommunications networks and stations
+F,42,422,42219,4221905,Maintenance of telecommunications networks and stations
+F,42,422,42227,4222701,"Construction of water supply networks, sewage collection and related constructions, except irrigation works"
+F,42,422,42227,4222702,Irrigation works
+F,42,422,42235,4223500,"Construction of pipelines, except for water and sewage"
+F,42,429,42910,4291000,"Port, sea and river works"
+F,42,429,42928,4292801,Mounting of metal structures
+F,42,429,42928,4292802,Industrial Assembly Works
+F,42,429,42995,4299501,Construction of sports and recreation facilities
+F,42,429,42995,4299599,Other civil engineering works not elsewhere classified
+F,43,431,43118,4311801,Demolition of buildings and other structures
+F,43,431,43118,4311802,Site preparation and clearing of land
+F,43,431,43126,4312600,Drilling and boring
+F,43,431,43134,4313400,Excavation works
+F,43,431,43193,4319300,Ground preparation services nes
+F,43,432,43215,4321500,Electrical installation and maintenance
+F,43,432,43223,4322301,"Hydraulic, sanitary and gas installations"
+F,43,432,43223,4322302,"Installation and maintenance of central air conditioning, ventilation and refrigeration systems"
+F,43,432,43223,4322303,Fire prevention system installations
+F,43,432,43291,4329101,Installation of advertising panels
+F,43,432,43291,4329102,"Installation of equipment for guidance to sea, river and lake navigation"
+F,43,432,43291,4329103,"Installation, maintenance and repair of lifts, ladders and conveyor belts"
+F,43,432,43291,4329104,"Installation and installation of lighting and signaling systems and equipment on public roads, ports and airports"
+F,43,432,43291,4329105,"Heat, acoustic or vibration treatments"
+F,43,432,43291,4329199,Other construction work on buildings not otherwise specified
+F,43,433,43304,4330401,Waterproofing in civil engineering works
+F,43,433,43304,4330402,"Installation of doors, windows, ceilings, partitions and cabinets of any material"
+F,43,433,43304,4330403,Finishing work in plaster and plaster
+F,43,433,43304,4330404,Painting services of buildings in general
+F,43,433,43304,4330405,Application of coatings and resins in interior and exterior
+F,43,433,43304,4330499,Other construction finishing work
+F,43,439,43916,4391600,Foundation works
+F,43,439,43991,4399101,Construction Management
+F,43,439,43991,4399102,Installation and dismantling of scaffolding and other temporary structures
+F,43,439,43991,4399103,Masonry works
+F,43,439,43991,4399104,Services of operation and supply of equipment for transport and lifting of loads and persons for use in works
+F,43,439,43991,4399105,Drilling and construction of water wells
+F,43,439,43991,4399199,Specialized construction services nes
+G,45,451,45111,4511101,"Retail trade of new cars, vans and utilities"
+G,45,451,45111,4511102,"Retail trade of used cars, vans and utilities"
+G,45,451,45111,4511103,"Wholesale trade of new and used automobiles, trucks and vans"
+G,45,451,45111,4511104,Wholesale of new and used trucks
+G,45,451,45111,4511105,Wholesale of new and used trailers and semi-trailers
+G,45,451,45111,4511106,Wholesale trade of new and used buses and minibuses
+G,45,451,45129,4512901,Commercial representatives and agents of the motor vehicle trade
+G,45,451,45129,4512902,Trade in consignment of motor vehicles
+G,45,452,45200,4520001,Maintenance and repair of motor vehicles
+G,45,452,45200,4520002,Motor vehicle orthopedic and bodywork services
+G,45,452,45200,4520003,Services in maintenance service and repair of motor vehicles
+G,45,452,45200,4520004,Automotive vehicle alignment and balancing services
+G,45,452,45200,4520005,"Services of washing, lubricating and buffing of motor vehicles"
+G,45,452,45200,4520006,Drilling services for motor vehicles
+G,45,452,45200,4520007,"Services in installation, start-adjusting and maintenance service of motor vehicles"
+G,45,452,45200,4520008,Capping services
+G,45,453,45307,4530701,Wholesale trade of new parts and accessories for motor vehicles
+G,45,453,45307,4530702,Wholesale of tires and inner tubes
+G,45,453,45307,4530703,Retail trade of new parts and accessories for motor vehicles
+G,45,453,45307,4530704,Retail trade of used parts and accessories for motor vehicles
+G,45,453,45307,4530705,Retail trade in tires and inner tubes
+G,45,453,45307,4530706,Commercial representatives and agents of the trade of new and used parts and accessories for motor vehicles
+G,45,454,45412,4541201,Wholesale of motorcycles and scooters
+G,45,454,45412,4541202,Wholesale of parts and accessories for motorcycles and scooters
+G,45,454,45412,4541203,Retail trade of new motorcycles and scooters
+G,45,454,45412,4541204,Retail sale of used motorcycles and scooters
+G,45,454,45412,4541205,Retail trade in parts and accessories for motorcycles and scooters
+G,45,454,45421,4542101,"Commercial representatives and agents of the motorcycle and scooter trade, parts and accessories"
+G,45,454,45421,4542102,Consignment trade of motorcycles and scooters
+G,45,454,45439,4543900,Maintenance and repair of motorcycles and scooters
+G,46,461,46117,4611700,Trade representatives and agents in the trade in agricultural raw materials and live animals
+G,46,461,46125,4612500,"Trade representatives and agents in the trade in fuel, minerals, steel products and chemicals"
+G,46,461,46133,4613300,"Trade representatives and agents of the trade in timber, building materials and hardware"
+G,46,461,46141,4614100,"Commercial representatives and agents of the trade in machinery, equipment, vessels and aircraft"
+G,46,461,46150,4615000,"Commercial representatives and agents of the trade of household appliances, furniture and household goods"
+G,46,461,46168,4616800,"Trade representatives and agents in the textile, apparel, footwear and travel trade"
+G,46,461,46176,4617600,"Trade representatives and agents of the food, beverage and tobacco trade"
+G,46,461,46184,4618401,"Trade representatives and agents in the trade in medicines, cosmetics and perfumery products"
+G,46,461,46184,4618402,Commercial representatives and agents of the trade of instruments and materials dental-medical-hospital
+G,46,461,46184,4618403,"Commercial representatives and agents of the trade of newspapers, magazines and other publications"
+G,46,461,46184,4618499,Other commercial representatives and agents specialized in the trade in products not elsewhere classified
+G,46,461,46192,4619200,Trade representatives and agents of merchandise trade generally unspecialized
+G,46,462,46214,4621400,Wholesale coffee bean wholesale
+G,46,462,46222,4622200,Wholesale soybean trade
+G,46,462,46231,4623101,Wholesale trade in live animals
+G,46,462,46231,4623102,"Wholesale trade in leather, wool, fur and other non-edible by-products of animal origin"
+G,46,462,46231,4623103,Cotton Wholesale Trade
+G,46,462,46231,4623104,Wholesale trade in non-benefited sheet tobacco
+G,46,462,46231,4623105,Wholesale of cocoa
+G,46,462,46231,4623106,"Wholesale of seeds, flowers, plants and grams"
+G,46,462,46231,4623107,Wholesale sisal trade
+G,46,462,46231,4623108,Wholesale trade in agricultural raw materials with associated fractioning and packaging activities
+G,46,462,46231,4623109,Wholesale of pet food
+G,46,462,46231,4623199,Wholesale of agricultural raw materials not elsewhere classified
+G,46,463,46311,4631100,Wholesale trade of milk and dairy products
+G,46,463,46320,4632001,Wholesale trade of cereals and legumes benefited
+G,46,463,46320,4632002,"Wholesale trade of flour, starch or"
+G,46,463,46320,4632003,"Wholesale trade of processed cereals and legumes, flours, meals and starches, with associated fractioning and conditioning activities"
+G,46,463,46338,4633801,"Wholesale of fresh fruits, vegetables, roots and tubers, fresh vegetables"
+G,46,463,46338,4633802,Wholesale trade of live birds and eggs
+G,46,463,46338,4633803,Wholesale trade in rabbits and other small live animals for animal feeding
+G,46,463,46346,4634601,Wholesale of meat and meat and meat products
+G,46,463,46346,4634602,Wholesale of slaughtered and derived birds
+G,46,463,46346,4634603,Wholesale of fish and seafood
+G,46,463,46346,4634699,Wholesale of meat and meat products of other animals
+G,46,463,46354,4635401,Wholesale of mineral water
+G,46,463,46354,4635402,"Wholesale of beer, draft beer and soda"
+G,46,463,46354,4635403,Wholesale of beverages with associated fractioning and conditioning activities
+G,46,463,46354,4635499,Wholesale of beverages not specified elsewhere
+G,46,463,46362,4636201,Wholesale trade of tobacco benefited
+G,46,463,46362,4636202,"Wholesale of cigarettes, cigarillos and cigars"
+G,46,463,46371,4637101,"Wholesale trade in roasted, ground and soluble coffee"
+G,46,463,46371,4637102,Wholesale Sugar Wholesaler
+G,46,463,46371,4637103,Wholesale of oils and fats
+G,46,463,46371,4637104,"Wholesale of bread, cakes, biscuits and the like"
+G,46,463,46371,4637105,Wholesale trade of pasta products
+G,46,463,46371,4637106,Wholesaler of ice creams
+G,46,463,46371,4637107,"Wholesale trade of chocolates, confectionery, candies, candies and the like"
+G,46,463,46371,4637199,Wholesale trade specializing in other food products
+G,46,463,46397,4639701,Wholesale of food products in general
+G,46,463,46397,4639702,"Wholesale trade in food products in general, with associated fractioning and conditioning activities"
+G,46,464,46419,4641901,Wholesale of textiles
+G,46,464,46419,4641902,"Wholesale of bed, table and bathroom articles"
+G,46,464,46419,4641903,Wholesale trade of haberdashery
+G,46,464,46427,4642701,"Wholesale of clothing and accessories, except professional and security articles"
+G,46,464,46427,4642702,Wholesale of clothing and accessories for professional use and work safety
+G,46,464,46435,4643501,Wholesale of footwear
+G,46,464,46435,4643502,"Wholesale of luggage, luggage and travel goods"
+G,46,464,46443,4644301,Wholesale trade in drugs and drugs for human use
+G,46,464,46443,4644302,Wholesale trade in drugs and veterinary drugs
+G,46,464,46451,4645101,"Wholesale of instruments and materials for medical, surgical, hospital and laboratory use"
+G,46,464,46451,4645102,Wholesale of prosthetics and orthopedic articles
+G,46,464,46451,4645103,Wholesale of dental products
+G,46,464,46460,4646001,Wholesale of cosmetics and perfumery products
+G,46,464,46460,4646002,Wholesale of personal hygiene products
+G,46,464,46478,4647801,Wholesale of office and stationery goods
+G,46,464,46478,4647802,"Wholesale of books, newspapers and other publications"
+G,46,464,46494,4649401,Wholesale of electrical equipment for personal and domestic use
+G,46,464,46494,4649402,Wholesale of electronic devices for personal and domestic use
+G,46,464,46494,4649403,"Wholesale of bicycles, tricycles and other recreational vehicles"
+G,46,464,46494,4649404,Wholesale of furniture and bed linen
+G,46,464,46494,4649405,Wholesale of tapestry articles; blinds and curtains
+G,46,464,46494,4649406,"Wholesale of chandeliers, lamps and lamps"
+G,46,464,46494,4649407,"Wholesale of films, CDs, DVDs, tapes and discs"
+G,46,464,46494,4649408,"Wholesale of hygiene products, cleaning and home care"
+G,46,464,46494,4649409,"Wholesale trade in hygiene products, cleaning and home preservation, with associated fractioning and conditioning activities"
+G,46,464,46494,4649410,"Wholesale of jewelry, watches and jewelery, including precious stones and semi-precious stones"
+G,46,464,46494,4649499,"Wholesale of other household and personal care articles and equipment, not elsewhere classified"
+G,46,465,46516,4651601,Wholesale of computer equipment
+G,46,465,46516,4651602,Wholesale of computer supplies
+G,46,465,46524,4652400,Wholesale of electronic components and telephone and communication equipment
+G,46,466,46613,4661300,"Wholesale of machinery, apparatus and equipment for agricultural use; parts and pieces"
+G,46,466,46621,4662100,"Wholesale of machinery, earthmoving, mining and construction equipment; parts and pieces"
+G,46,466,46630,4663000,Wholesale of machinery and equipment for industrial use; parts and pieces
+G,46,466,46648,4664800,"Wholesale of machinery, apparatus and equipment for dental-medical-hospital use; parts and pieces"
+G,46,466,46656,4665600,Wholesale trade of machines and equipment for commercial use; parts and pieces
+G,46,466,46699,4669901,Wholesale trade of pumps and compressors; parts and pieces
+G,46,466,46699,4669999,Wholesale of other machinery and equipment not elsewhere classified; parts and pieces
+G,46,467,46711,4671100,Wholesale of wood and derived products
+G,46,467,46729,4672900,Wholesale of hardware and tools
+G,46,467,46737,4673700,Wholesale of electrical equipment
+G,46,467,46745,4674500,Wholesale of cement
+G,46,467,46796,4679601,"Wholesale of paints, varnishes and the like"
+G,46,467,46796,4679602,Wholesale trade of marbles and granites
+G,46,467,46796,4679603,"Wholesale of glass, mirrors and stained-glass windows"
+G,46,467,46796,4679604,Wholesale specialized trade of construction materials nes
+G,46,467,46796,4679699,Wholesale of construction materials in general
+G,46,468,46818,4681801,"Wholesale trade of fuel alcohol, biodiesel, gasoline and other petroleum products, except lubricants, not carried out by retailer (TRR)"
+G,46,468,46818,4681802,Wholesale trade of fuels by retailer (TRR)
+G,46,468,46818,4681803,"Wholesale of fuels of vegetable origin, other than fuel alcohol"
+G,46,468,46818,4681804,Wholesale of fuels of crude mineral origin
+G,46,468,46818,4681805,Wholesale of lubricants
+G,46,468,46826,4682600,Wholesaler of liquefied petroleum gas (LPG)
+G,46,468,46834,4683400,"Wholesale trade in pesticides, fertilizers, fertilizers and soil improvers"
+G,46,468,46842,4684201,Wholesale resins and elastomers
+G,46,468,46842,4684202,Wholesale solvents trade
+G,46,468,46842,4684299,Wholesale of other chemical and petrochemical products nec
+G,46,468,46851,4685100,"Wholesale of steel and metallurgical products, except for construction"
+G,46,468,46869,4686901,Wholesale of paper and paperboard
+G,46,468,46869,4686902,Wholesale packaging trade
+G,46,468,46877,4687701,Wholesale of paper and paperboard waste
+G,46,468,46877,4687702,"Wholesale of non-metallic wastes and scrap, except paper and paperboard"
+G,46,468,46877,4687703,Wholesale of waste and scrap metal
+G,46,468,46893,4689301,"Wholesale of mineral extracts, except for fuels"
+G,46,468,46893,4689302,Wholesale trade of yarns and fibers benefited
+G,46,468,46893,4689399,"Wholesale trade, specialized in other intermediary products, not elsewhere classified"
+G,46,469,46915,4691500,"Wholesale trade of goods in general, with predominance of food products"
+G,46,469,46923,4692300,"Wholesale trade of goods in general, with predominance of agricultural inputs"
+G,46,469,46931,4693100,"Wholesale trade of goods in general, without predominance of food or agricultural inputs"
+G,47,471,47113,4711301,"Retailing of merchandise in general, with predominance of food products - hypermarkets"
+G,47,471,47113,4711302,"Retail trade in general merchandise, predominantly food products - supermarkets"
+G,47,471,47121,4712100,"Retailing of merchandise in general, with predominance of food products - mini-markets, grocery stores and warehouses"
+G,47,471,47130,4713001,Department stores or magazines
+G,47,471,47130,4713002,"Variety shops, except department stores or magazines"
+G,47,471,47130,4713003,Duty free shops of international airports
+G,47,472,47211,4721102,Pre-resale bakery and confectionery
+G,47,472,47211,4721103,Retail sale of dairy products and cold cuts
+G,47,472,47211,4721104,"Retail sale of sweets, candies, candies and the like"
+G,47,472,47229,4722901,Retail sale of meat - butchers
+G,47,472,47229,4722902,Fishmonger
+G,47,472,47237,4723700,Retail sale of beverages
+G,47,472,47245,4724500,Retail sale of fruit and vegetables
+G,47,472,47296,4729601,Tabacaria
+G,47,472,47296,4729602,Retail trade of goods in convenience stores
+G,47,472,47296,4729699,Retail sale of food products in general or specialized in food products
+G,47,473,47318,4731800,Retail trade of motor vehicle fuels
+G,47,473,47326,4732600,Retailing of lubricants
+G,47,474,47415,4741500,Retail sale of paints and paint materials
+G,47,474,47423,4742300,Retail sale of electrical equipment
+G,47,474,47431,4743100,Retail sale of glass
+G,47,474,47440,4744001,Retail hardware and tools retail
+G,47,474,47440,4744002,Retail trade of wood and artifacts
+G,47,474,47440,4744003,Retail sale of hydraulic materials
+G,47,474,47440,4744004,"Retail trade in lime, sand, crushed stone, bricks and tiles"
+G,47,474,47440,4744005,Retail sale of construction materials nes
+G,47,474,47440,4744006,Retail sale of flooring stones
+G,47,474,47440,4744099,Retail sale of general construction materials
+G,47,475,47512,4751201,Specialized retailing of computer equipment and supplies
+G,47,475,47512,4751202,Refilling cartridges for computer equipment
+G,47,475,47521,4752100,Specialized retail trade in telephony and communication equipment
+G,47,475,47539,4753900,Specialized retail trade of household appliances and audio and video equipment
+G,47,475,47547,4754701,Furniture retail trade
+G,47,475,47547,4754702,Retail sale of bed linen
+G,47,475,47547,4754703,Retail sale of lighting equipment
+G,47,475,47555,4755501,Retailing of fabrics
+G,47,475,47555,4755502,Retail trade of haberdashery
+G,47,475,47555,4755503,"Retail trade of bed, table and bathroom articles"
+G,47,475,47563,4756300,Specialized retail trade of musical instruments and accessories
+G,47,475,47571,4757100,"Specialized retail trade in parts and accessories for home appliances, except computers and communication"
+G,47,475,47598,4759801,"Retail sale of upholstery products, curtains and blinds"
+G,47,475,47598,4759899,Retail sale of other household and personal items not elsewhere classified
+G,47,476,47610,4761001,Retailing of books
+G,47,476,47610,4761002,Retail sale of newspapers and magazines
+G,47,476,47610,4761003,Retail sale of stationery
+G,47,476,47628,4762800,"Retail sale of discs, CDs, DVDs and tapes"
+G,47,476,47636,4763601,Retailing of toys and recreational items
+G,47,476,47636,4763602,Retailing of sporting goods
+G,47,476,47636,4763603,Retail trade of bicycles and tricycles; parts and accessories
+G,47,476,47636,4763604,"Retail sale of hunting, fishing and camping goods"
+G,47,476,47636,4763605,Retail trade of boats and other recreational vehicles; parts and accessories
+G,47,477,47717,4771701,Retail sale of pharmaceutical products without manipulation of formulas
+G,47,477,47717,4771702,"Retailing of pharmaceuticals, with manipulation of formulas"
+G,47,477,47717,4771703,Retail sale of homeopathic pharmaceuticals
+G,47,477,47717,4771704,Retail trade in veterinary drugs
+G,47,477,47725,4772500,"Retail sale of cosmetics, perfumery and toilet preparations"
+G,47,477,47733,4773300,Retail sale of medical and orthopedic articles
+G,47,477,47741,4774100,Retail sale of optical goods
+G,47,478,47814,4781400,Retail sale of clothing and accessories
+G,47,478,47822,4782201,Retailing of footwear
+G,47,478,47822,4782202,Retail sale of travel goods
+G,47,478,47831,4783101,Retail sale of jewelery articles
+G,47,478,47831,4783102,Retail sale of watches and clocks
+G,47,478,47849,4784900,Retail sale of liquefied petroleum gas (LPG)
+G,47,478,47857,4785701,Retail sale of antiques
+G,47,478,47857,4785799,Retail sale of other second-hand goods
+G,47,478,47890,4789001,"Retail trade of souvenirs, costume jewelery and handicrafts"
+G,47,478,47890,4789002,Retail sale of natural flowers and plants
+G,47,478,47890,4789003,Retail sale of art objects
+G,47,478,47890,4789004,Retail trade in live animals and articles and pet food
+G,47,478,47890,4789005,Retail sale of sanitizing products
+G,47,478,47890,4789006,Retail sale of fireworks and pyrotechnic articles
+G,47,478,47890,4789007,Retail sale of office equipment
+G,47,478,47890,4789008,Retail sale of photographic and cinematographic goods
+G,47,478,47890,4789009,Retail trade in arms and ammunition
+G,47,478,47890,4789099,Retail sale of other products nec
+H,49,491,49116,4911600,Railroad transportation of goods
+H,49,491,49124,4912401,Intercity and interstate rail transportation of passengers
+H,49,491,49124,4912402,Municipal and metropolitan rail passenger transport
+H,49,491,49124,4912403,Subway transportation
+H,49,492,49213,4921301,"Collective road transport of passengers, with fixed, municipal route"
+H,49,492,49213,4921302,"Collective road transport of passengers, with fixed itinerary, intermunicipal in metropolitan region"
+H,49,492,49221,4922101,"Collective road transport of passengers, with fixed itinerary, intermunicipal, except in the metropolitan region"
+H,49,492,49221,4922102,"Collective road transport of passengers, with fixed itinerary, interstate"
+H,49,492,49221,4922103,"Collective road transport of passengers, with fixed itinerary, international"
+H,49,492,49230,4923001,Taxi service
+H,49,492,49230,4923002,Passenger transport service - car hire with driver
+H,49,492,49248,4924800,School bus
+H,49,492,49299,4929901,"Collective road transport of passengers, under charter, municipal"
+H,49,492,49299,4929902,"Collective road transport of passengers, under charter, intermunicipal, interstate and international regime"
+H,49,492,49299,4929903,"Organization of excursions on own, municipal road vehicles"
+H,49,492,49299,4929904,"Organization of excursions on own, intermunicipal, interstate and international road vehicles"
+H,49,492,49299,4929999,"Other road passenger transport, not elsewhere classified"
+H,49,493,49302,4930201,"Cargo transportation, except dangerous goods and removals, municipal"
+H,49,493,49302,4930202,"Cargo road transport, except dangerous products and changes, intermunicipal, interstate and international"
+H,49,493,49302,4930203,Road transport of dangerous goods
+H,49,493,49302,4930204,Road transport of change
+H,49,494,49400,4940000,Ductwork transportation
+H,49,495,49507,4950700,"Tourist trains, cable cars and similar"
+H,50,501,50114,5011401,Coastal shipping - Freight
+H,50,501,50114,5011402,Shipping by cabotage - passengers
+H,50,501,50122,5012201,Long-sea shipping - Freight
+H,50,501,50122,5012202,Long sea shipping - Passengers
+H,50,502,50211,5021101,"Inland freight transport, municipal, except crossing"
+H,50,502,50211,5021102,"Transportation by Inland Cargo, Inter-Municipal, Interstate and International Inland Waterways, except Crossing"
+H,50,502,50220,5022001,"Inland waterway transport of passengers on regular, municipal lines, except crossings"
+H,50,502,50220,5022002,"Inland waterway transport of passengers on regular, intermunicipal, interstate and international lines, except crossings"
+H,50,503,50301,5030101,Maritime support navigation
+H,50,503,50301,5030102,Port support navigation
+H,50,503,50301,5030103,Service of tugboats and pushers
+H,50,509,50912,5091201,Transportation by sea
+H,50,509,50912,5091202,"Transportation by intercity, interstate and international navigation"
+H,50,509,50998,5099801,Water transport for sightseeing
+H,50,509,50998,5099899,Other road transport not elsewhere classified
+H,51,511,51111,5111100,Regular passenger air transport
+H,51,511,51129,5112901,Aerial taxi service and aircraft rental with crew
+H,51,511,51129,5112999,Other non-scheduled passenger air transport services
+H,51,512,51200,5120000,Air freight transport
+H,51,513,51307,5130700,Space transportation
+H,52,521,52117,5211701,General warehouses - issue of warrant
+H,52,521,52117,5211702,Furniture storage
+H,52,521,52117,5211799,"Deposits of goods for third parties, except general stores and furniture storage"
+H,52,521,52125,5212500,Loading and unloading
+H,52,522,52214,5221400,"Concessionaires of highways, bridges, tunnels and related services"
+H,52,522,52222,5222200,Road and rail terminals
+H,52,522,52231,5223100,Parking of vehicles
+H,52,522,52290,5229001,"Taxi support services, including call centers"
+H,52,522,52290,5229002,Vehicle towing services
+H,52,522,52290,5229099,Other activities auxiliary to land transport not elsewhere specified
+H,52,523,52311,5231101,Administration of port infrastructure
+H,52,523,52311,5231102,Port Operator Activities
+H,52,523,52311,5231103,Management of waterway terminals
+H,52,523,52320,5232000,Maritime agency activities
+H,52,523,52397,5239701,Practical services
+H,52,523,52397,5239799,Auxiliary activities of water transport not elsewhere classified
+H,52,524,52401,5240101,Operation of airports and landing fields
+H,52,524,52401,5240199,"Activities auxiliary to air transport, except operation of airports and landing fields"
+H,52,525,52508,5250801,Dispatcher
+H,52,525,52508,5250802,Customs broker activities
+H,52,525,52508,5250803,"Freight forwarding, except for maritime transport"
+H,52,525,52508,5250804,Logistics organization of cargo transportation
+H,52,525,52508,5250805,Multimodal transport operator - OTM
+H,53,531,53105,5310501,National Mail Activities
+H,53,531,53105,5310502,Activities of franchisees and permission holders of Correio Nacional
+H,53,532,53202,5320201,Pouch services not carried out by the National Post Office
+H,53,532,53202,5320202,Fast Delivery Services
+I,55,551,55108,5510801,Flights
+I,55,551,55108,5510802,Holiday Apartments
+I,55,551,55108,5510803,Accommodation
+I,55,559,55906,5590601,"Hostels, except charity"
+I,55,559,55906,5590602,Campsites
+I,55,559,55906,5590603,Bed and Breakfast
+I,55,559,55906,5590699,Other accommodation not elsewhere classified
+I,56,561,56112,5611201,Restaurants and similar
+I,56,561,56112,5611202,Bars and other establishments specializing in serving beverages
+I,56,561,56112,5611203,"Snack bars, tea houses, juices and similar"
+I,56,561,56121,5612100,Mobile food services
+I,56,562,56201,5620101,Supply of pre-prepared food for companies
+I,56,562,56201,5620102,Catering services for events and receptions - catering
+I,56,562,56201,5620103,Canteens - private food services
+I,56,562,56201,5620104,Supply of food prepared predominantly for household consumption
+J,58,581,58115,5811500,Book publishing
+J,58,581,58123,5812301,Publishing of daily newspapers
+J,58,581,58123,5812302,Editing non-daily newspapers
+J,58,581,58131,5813100,Publishing of magazines
+J,58,581,58191,5819100,"Editing lists, lists and other graphic products"
+J,58,582,58212,5821200,Edition integrated with book printing
+J,58,582,58221,5822101,Editing integrated with daily newspaper printing
+J,58,582,58221,5822102,Editing integrated with the printing of non-daily newspapers
+J,58,582,58239,5823900,Integrated editing for magazine printing
+J,58,582,58298,5829800,"Editing integrated with the printing of catalogs, lists and other graphic products"
+J,59,591,59111,5911101,Cinematographic studios
+J,59,591,59111,5911102,Advertising film production
+J,59,591,59111,5911199,"Motion picture, video and television program activities not elsewhere classified"
+J,59,591,59120,5912001,Security Services
+J,59,591,59120,5912002,Sound-mixing services in audiovisual production
+J,59,591,59120,5912099,"Post-production activities, film, videos and television programs, not elsewhere classified"
+J,59,591,59138,5913800,"Cinematographic, video and television programs distribution"
+J,59,591,59146,5914600,Cinematographic exhibition activities
+J,59,592,59201,5920100,Sound recording and music publishing activities
+J,60,601,60101,6010100,Radio activities
+J,60,602,60217,6021700,Open television activities
+J,60,602,60225,6022501,Programmers
+J,60,602,60225,6022502,"Activities related to pay-TV, except programmers"
+J,61,611,61108,6110801,Switched telephone services - STFC
+J,61,611,61108,6110802,Telecommunications transport network services - SRTT
+J,61,611,61108,6110803,Multimedia communication services - SCM
+J,61,611,61108,6110899,Wired telecommunications services nes
+J,61,612,61205,6120501,Mobile cellular telephony
+J,61,612,61205,6120502,Specialized mobile service - SME
+J,61,612,61205,6120599,Wireless telecommunication services nes
+J,61,613,61302,6130200,Satellite Telecommunications
+J,61,614,61418,6141800,Pay-TV cable operators
+J,61,614,61426,6142600,Microwave pay-TV operators
+J,61,614,61434,6143400,Pay-TV operators
+J,61,619,61906,6190601,Providers of access to communications networks
+J,61,619,61906,6190602,Voice over internet protocol providers - VOIP
+J,61,619,61906,6190699,Other telecommunications activities not elsewhere classified
+J,62,620,62015,6201501,Development of computer programs to order
+J,62,620,62015,6201502,Web design
+J,62,620,62023,6202300,Development and licensing of customizable computer programs
+J,62,620,62031,6203100,Development and licensing of non-customizable computer programs
+J,62,620,62040,6204000,Consulting in information technology
+J,62,620,62091,6209100,"Technical support, maintenance and other services in information technology"
+J,63,631,63119,6311900,"Data processing, application service providers and web hosting services"
+J,63,631,63194,6319400,"Portals, content providers and other information services on the internet"
+J,63,639,63917,6391700,News Agencies
+J,63,639,63992,6399200,"Other information service activities, not elsewhere classified"
+K,64,641,64107,6410700,central bank
+K,64,642,64212,6421200,Commercial Banks
+K,64,642,64221,6422100,Multiple banks with commercial portfolios
+K,64,642,64239,6423900,Economical boxes
+K,64,642,64247,6424701,Cooperative banks
+K,64,642,64247,6424702,Central credit unions
+K,64,642,64247,6424703,Mutual Credit Cooperatives
+K,64,642,64247,6424704,Rural credit cooperatives
+K,64,643,64310,6431000,"Multiple banks, no commercial portfolio"
+K,64,643,64328,6432800,Investment Banking
+K,64,643,64336,6433600,Development Banks
+K,64,643,64344,6434400,Development agencies
+K,64,643,64352,6435201,Real Estate Mortgage Companies
+K,64,643,64352,6435202,Savings and loan associations
+K,64,643,64352,6435203,Mortgage Companies
+K,64,643,64361,6436100,"Credit, financing and investment companies - financial"
+K,64,643,64379,6437900,Microentrepreneur credit societies
+K,64,643,64387,6438701,Exchange banks
+K,64,643,64387,6438799,Other non-monetary intermediation institutions not previously specified
+K,64,644,64409,6440900,Lease
+K,64,645,64506,6450600,Capitalization companies
+K,64,646,64611,6461100,Holdings of financial institutions
+K,64,646,64620,6462000,Holdings of non-financial institutions
+K,64,646,64638,6463800,"Other holding companies, except holdings"
+K,64,647,64701,6470101,"Investment funds, except social security and real estate"
+K,64,647,64701,6470102,Social security investment funds
+K,64,647,64701,6470103,Real estate investment funds
+K,64,649,64913,6491300,Trading companies - factoring
+K,64,649,64921,6492100,Securitization of credits
+K,64,649,64930,6493000,Administration of consortia for the acquisition of goods and rights
+K,64,649,64999,6499901,Investment clubs
+K,64,649,64999,6499902,Investment Companies
+K,64,649,64999,6499903,Credit guarantee fund
+K,64,649,64999,6499904,Corporate Financing Boxes
+K,64,649,64999,6499905,Granting of credit by OSCIP
+K,64,649,64999,6499999,"Other financial service activities, not elsewhere specified or included"
+K,65,651,65111,6511101,Life insurance insurance company
+K,65,651,65111,6511102,Funeral assistance plans
+K,65,651,65120,6512000,Non-life insurance company
+K,65,652,65201,6520100,Health insurance insurance company
+K,65,653,65308,6530800,Reinsurance
+K,65,654,65413,6541300,Closed pension plan
+K,65,654,65421,6542100,Supplementary pension plan
+K,65,655,65502,6550200,Health insurance
+K,66,661,66118,6611801,Stock Exchange
+K,66,661,66118,6611802,Stock Exchange
+K,66,661,66118,6611803,Stock exchange and futures
+K,66,661,66118,6611804,Management of organized over-the-counter markets
+K,66,661,66126,6612601,Securities brokers
+K,66,661,66126,6612602,Distributors of marketable securities
+K,66,661,66126,6612603,Exchange Brokers
+K,66,661,66126,6612604,Brokerage of goods contracts
+K,66,661,66126,6612605,Investment agents in financial investments
+K,66,661,66134,6613400,Credit Card Management
+K,66,661,66193,6619301,Settlement and custody services
+K,66,661,66193,6619302,Correspondents from financial institutions
+K,66,661,66193,6619303,Representations of foreign banks
+K,66,661,66193,6619304,ATMs
+K,66,661,66193,6619305,Debit Card Operators
+K,66,661,66193,6619399,"Other activities auxiliary to financial services, not specified elsewhere"
+K,66,662,66215,6621501,Insurance experts and evaluators
+K,66,662,66215,6621502,Audit and actuarial consulting
+K,66,662,66223,6622300,"Brokers and insurance agents, pension plans and health insurance"
+K,66,662,66291,6629100,"Activities auxiliary to insurance, supplementary pension plans and health insurance plans not previously specified"
+K,66,663,66304,6630400,Activities of administration of funds by contract or commission
+L,68,681,68102,6810201,Purchase and sale of own properties
+L,68,681,68102,6810202,Rent of own properties
+L,68,681,68102,6810203,Allotment of own properties
+L,68,682,68218,6821801,Brokerage in the purchase and sale and evaluation of real estate
+L,68,682,68218,6821802,Brokerage in real estate leasing
+L,68,682,68226,6822600,Management and administration of real estate
+M,69,691,69117,6911701,Attorney services
+M,69,691,69117,6911702,Activities auxiliary to justice
+M,69,691,69117,6911703,Industrial Property Agent
+M,69,691,69125,6912500,Offices
+M,69,692,69206,6920601,Accounting activities
+M,69,692,69206,6920602,Accounting and tax audit and consulting activities
+M,70,702,70204,7020400,"Business and management consultancy activities, except technical consultancy"
+M,71,711,71111,7111100,Architectural services
+M,71,711,71120,7112000,Engineering services
+M,71,711,71197,7119701,"Mapping, surveying and geodetic services"
+M,71,711,71197,7119702,Geological survey activities
+M,71,711,71197,7119703,Engineering design services related to architecture and engineering
+M,71,711,71197,7119704,Services of technical expertise related to occupational safety
+M,71,711,71197,7119799,Technical activities related to engineering and architecture not previously specified
+M,71,712,71201,7120100,Technical testing and analysis
+M,72,721,72100,7210000,Research and experimental development in the physical and natural sciences
+M,72,722,72207,7220700,Research and experimental development in social and human sciences
+M,73,731,73114,7311400,Publicity agencies
+M,73,731,73122,7312200,"Agency of advertising spaces, except in communication vehicles"
+M,73,731,73190,7319001,Creation of stands for trade fairs and exhibitions
+M,73,731,73190,7319002,Sales promotion
+M,73,731,73190,7319003,Direct marketing
+M,73,731,73190,7319004,Advertising consultants
+M,73,731,73190,7319099,Other advertising activities not elsewhere classified
+M,73,732,73203,7320300,Market research and public opinion
+M,74,741,74102,7410202,Interior design
+M,74,741,74102,7410203,Product design
+M,74,741,74102,7410299,Design activities not elsewhere classified
+M,74,742,74200,7420001,"Photography, except aerial and underwater photography activities"
+M,74,742,74200,7420002,Aerial and underwater photography production activities
+M,74,742,74200,7420003,Photographic laboratories
+M,74,742,74200,7420004,Party & Event Filming
+M,74,742,74200,7420005,Microfilming services
+M,74,749,74901,7490101,"Translation, interpretation and similar services"
+M,74,749,74901,7490102,Scuba diving and diving
+M,74,749,74901,7490103,Agronomy and advisory services to agricultural and livestock activities
+M,74,749,74901,7490104,"Intermediation and service agency activities and business in general, except real estate"
+M,74,749,74901,7490105,"Agency of professionals for sports, cultural and artistic activities"
+M,74,749,74901,7490199,"Other professional, scientific and technical activities not previously specified"
+M,75,750,75001,7500100,Veterinary activities
+N,77,771,77110,7711000,Car rental without driver
+N,77,771,77195,7719501,"Rental of boats without crew, except for recreational purposes"
+N,77,771,77195,7719502,Renting of unmanned aircraft
+N,77,771,77195,7719599,"Leasing of other means of transport not classified elsewhere, without driver"
+N,77,772,77217,7721700,Recreational and sporting equipment rental
+N,77,772,77225,7722500,"Rental of video tapes, DVDs and the like"
+N,77,772,77233,7723300,"Rental of clothing, jewelry and accessories"
+N,77,772,77292,7729201,Rent of electronic games equipment
+N,77,772,77292,7729202,"Rent of furniture, utensils and appliances for domestic and personal use; musical instruments"
+N,77,772,77292,7729203,Rent of medical equipment
+N,77,772,77292,7729299,Rent of other personal and household goods not elsewhere specified
+N,77,773,77314,7731400,Rental of agricultural machinery and equipment without operator
+N,77,773,77322,7732201,Rental of construction machinery and equipment without operator except scaffolding
+N,77,773,77322,7732202,Scaffold rental
+N,77,773,77331,7733100,Rent of machinery and equipment for office
+N,77,773,77390,7739001,"Rent of machinery and equipment for extraction of minerals and oil, without operator"
+N,77,773,77390,7739002,"Rental of scientific, medical and hospital equipment, without operator"
+N,77,773,77390,7739003,"Rent of stages, roofs and other structures of temporary use, except scaffolding"
+N,77,773,77390,7739099,"Renting and leasing of other machinery, industrial and commercial, not classified elsewhere, without operator"
+N,77,774,77403,7740300,Management of non-financial intangible assets
+N,78,781,78108,7810800,Selection and agency of labor
+N,78,782,78205,7820500,Leasing of temporary labor
+N,78,783,78302,7830200,Provision and management of human resources for third parties
+N,79,791,79112,7911200,Travel Agencies
+N,79,791,79121,7912100,Tour Operators
+N,79,799,79902,7990200,"Reservation services and other tourist services, not elsewhere classified"
+N,80,801,80111,8011101,Surveillance and private security activities
+N,80,801,80111,8011102,Guard dog training services
+N,80,801,80129,8012900,Transport activities of securities
+N,80,802,80200,8020001,Activities of monitoring of electronic security systems
+N,80,802,80200,8020002,Other activities of security services
+N,80,803,80307,8030700,Private investigation activities
+N,81,811,81117,8111700,"Combined services to support buildings, except condominiums"
+N,81,811,81125,8112500,Condos
+N,81,812,81214,8121400,Cleaning in buildings and in homes
+N,81,812,81222,8122200,Immunization and control of urban pests
+N,81,812,81290,8129000,Cleaning activities not elsewhere classified
+N,81,813,81303,8130300,Landscape Activities
+N,82,821,82113,8211300,Combined office and administrative support services
+N,82,821,82199,8219901,Photocopying
+N,82,821,82199,8219999,"Preparation of documents and specialized administrative support services, not elsewhere classified"
+N,82,822,82202,8220200,Telemarketing activities
+N,82,823,82300,8230001,"Services for the organization of fairs, congresses, exhibitions and parties"
+N,82,823,82300,8230002,Event & Party Rentals
+N,82,829,82911,8291100,Collection activities and registration information
+N,82,829,82920,8292000,Packing and packaging under contract
+N,82,829,82997,8299701,"Measurement of electricity, gas and water consumption"
+N,82,829,82997,8299702,"Issuance of food vouchers, travel vouchers and the like"
+N,82,829,82997,8299703,"Stamp-making services, except clothing"
+N,82,829,82997,8299704,Independent Auctioneers
+N,82,829,82997,8299705,Fund raising services under contract
+N,82,829,82997,8299706,Lottery houses
+N,82,829,82997,8299707,Internet access rooms
+N,82,829,82997,8299799,"Other business activities, not elsewhere specified or included"
+O,84,841,84116,8411600,General public administration
+O,84,841,84124,8412400,"Regulation of health activities, education, cultural services and other social services"
+O,84,841,84132,8413200,Regulation of economic activities
+O,84,842,84213,8421300,Foreign relations
+O,84,842,84221,8422100,Defense
+O,84,842,84230,8423000,Justice
+O,84,842,84248,8424800,Security and public order
+O,84,842,84256,8425600,Civil defense
+O,84,843,84302,8430200,Compulsory social security
+P,85,851,85112,8511200,Children's education - day care
+P,85,851,85121,8512100,Pre-school education
+P,85,851,85139,8513900,Elementary School
+P,85,852,85201,8520100,High school
+P,85,853,85317,8531700,Higher Education - Undergraduate
+P,85,853,85325,8532500,Higher Education - Undergraduate and Postgraduate
+P,85,853,85333,8533300,Higher Education - Postgraduate and Extension
+P,85,854,85414,8541400,Vocational education of technical level
+P,85,854,85422,8542200,Vocational education of technological level
+P,85,855,85503,8550301,School Box Administration
+P,85,855,85503,8550302,"Education support activities, except school bureaus"
+P,85,859,85911,8591100,Sports teaching
+P,85,859,85929,8592901,Dance Teaching
+P,85,859,85929,8592902,"Teaching of performing arts, except dance"
+P,85,859,85929,8592903,Music Teaching
+P,85,859,85929,8592999,Education of art and culture not elsewhere specified
+P,85,859,85937,8593700,Teaching languages
+P,85,859,85996,8599601,Training of drivers
+P,85,859,85996,8599602,Pilot Courses
+P,85,859,85996,8599603,Computer training
+P,85,859,85996,8599604,Training in professional and managerial development
+P,85,859,85996,8599605,Preparatory courses for competitions
+P,85,859,85996,8599699,Other teaching activities not elsewhere classified
+Q,86,861,86101,8610101,"Hospital care activities, except emergency room and units for emergency care"
+Q,86,861,86101,8610102,Emergency care services and hospital units for emergency care
+Q,86,862,86216,8621601,Mobile ICU
+Q,86,862,86216,8621602,"Mobile emergency services, except for mobile ICU"
+Q,86,862,86224,8622400,"Removal services for patients, except mobile emergency services"
+Q,86,863,86305,8630501,Outpatient medical activity with resources for performing surgical procedures
+Q,86,863,86305,8630502,Outpatient medical activity with resources to perform complementary exams
+Q,86,863,86305,8630503,Outpatient medical activity restricted to consultations
+Q,86,863,86305,8630504,Dental activity
+Q,86,863,86305,8630506,Immunization and human immunization services
+Q,86,863,86305,8630507,Assisted human reproduction activities
+Q,86,863,86305,8630599,Ambulatory care activities not elsewhere specified
+Q,86,864,86402,8640201,Laboratories of pathological and cytological anatomy
+Q,86,864,86402,8640202,Clinical laboratories
+Q,86,864,86402,8640203,Dialysis and nephrology services
+Q,86,864,86402,8640204,Tomography services
+Q,86,864,86402,8640205,"Imaging services using ionizing radiation, except tomography"
+Q,86,864,86402,8640206,Magnetic resonance imaging
+Q,86,864,86402,8640207,"Imaging services without the use of ionizing radiation, except magnetic resonance imaging"
+Q,86,864,86402,8640208,"Diagnostic services by graphic registry - ECG, EEG and other analogous exams"
+Q,86,864,86402,8640209,Diagnostic services by optical methods - endoscopy and other analogous exams
+Q,86,864,86402,8640210,Chemotherapy Services
+Q,86,864,86402,8640211,Radiotherapy services
+Q,86,864,86402,8640212,Hemotherapy services
+Q,86,864,86402,8640213,Lithotripsal services
+Q,86,864,86402,8640214,Human tissue and cell banking services
+Q,86,864,86402,8640299,"Activities of diagnostic and therapeutic complementation services, not elsewhere classified"
+Q,86,865,86500,8650001,Nursing activities
+Q,86,865,86500,8650002,Activities of Nutrition Professionals
+Q,86,865,86500,8650003,Activities of psychology and psychoanalysis
+Q,86,865,86500,8650004,Physiotherapy activities
+Q,86,865,86500,8650005,Occupational therapy activities
+Q,86,865,86500,8650006,Phonoaudiology activities
+Q,86,865,86500,8650007,Enteral and parenteral nutrition therapy activities
+Q,86,865,86500,8650099,Activities of health professionals not elsewhere classified
+Q,86,866,86607,8660700,Health management support activities
+Q,86,869,86909,8690901,Activities of integrative and complementary practices in human health
+Q,86,869,86909,8690902,Activities of human milk banks
+Q,86,869,86909,8690903,Acupuncture activities
+Q,86,869,86909,8690904,Podiatry activities
+Q,86,869,86909,8690999,Other activities of human health care not previously specified
+Q,87,871,87115,8711501,Geriatric clinics and residences
+Q,87,871,87115,8711502,Long-term care facilities for the elderly
+Q,87,871,87115,8711503,"Assistance activities for the disabled, immunosuppressed and convalescent"
+Q,87,871,87115,8711504,Support Centers for Cancer Patients and AIDS
+Q,87,871,87115,8711505,Residential condominiums for the elderly
+Q,87,871,87123,8712300,Activities to provide support infrastructure and home patient care
+Q,87,872,87204,8720401,Activities of psychosocial care centers
+Q,87,872,87204,8720499,"Psychosocial and health care activities for persons with mental disorders, mental retardation and chemical dependency not previously specified"
+Q,87,873,87301,8730101,Orphanages
+Q,87,873,87301,8730102,Accommodation
+Q,87,873,87301,8730199,Social work activities provided in collective and private residences not previously specified
+Q,88,880,88006,8800600,Social work services without accommodation
+R,90,900,90019,9001901,Theatrical production
+R,90,900,90019,9001902,Musical production
+R,90,900,90019,9001903,Production of dance shows
+R,90,900,90019,9001904,"Production of circus shows, puppets and the like"
+R,90,900,90019,9001905,"Production of rodeo, goat and similar shows"
+R,90,900,90019,9001906,Sound and lighting activities
+R,90,900,90019,9001999,"Performing arts, shows and complementary activities not previously specified"
+R,90,900,90027,9002701,"Activities of plastic artists, independent journalists and writers"
+R,90,900,90027,9002702,Restoration of works of art
+R,90,900,90035,9003500,"Management of spaces for performing arts, shows and other artistic activities"
+R,91,910,91015,9101500,Library and File Activities
+R,91,910,91023,9102301,Activities of museums and exploration of historical places and buildings and similar attractions
+R,91,910,91023,9102302,Restoration and conservation of historical places and buildings
+R,91,910,91031,9103100,"Activities of botanical gardens, zoos, national parks, ecological reserves and environmental protection areas"
+R,92,920,92003,9200301,Bingo Houses
+R,92,920,92003,9200302,Horse racing betting
+R,92,920,92003,9200399,Exploitation of gambling and betting not specified above
+R,93,931,93115,9311500,Sports facilities management
+R,93,931,93123,9312300,"Social, sports and similar clubs"
+R,93,931,93131,9313100,Fitness activities
+R,93,931,93191,9319101,Production and promotion of sporting events
+R,93,931,93191,9319199,Other sports activities not elsewhere classified
+R,93,932,93212,9321200,Amusement parks and theme parks
+R,93,932,93298,9329801,"Nightclubs, dance clubs, dance halls and the like"
+R,93,932,93298,9329802,Exploring bowling alleys
+R,93,932,93298,9329803,"Exploration of pool, billiard and similar games"
+R,93,932,93298,9329804,Exploration of recreational electronic games
+R,93,932,93298,9329899,Other recreation and leisure activities not elsewhere classified
+S,94,941,94111,9411100,Activities of employers 'and employers' associative organizations
+S,94,941,94120,9412001,Professional inspection activities
+S,94,941,94120,9412099,Other professional associative activities
+S,94,942,94201,9420100,Activities of trade unions
+S,94,943,94308,9430800,Activities of associations of defense of social rights
+S,94,949,94910,9491000,Activities of religious or philosophical organizations
+S,94,949,94928,9492800,Activities of political organizations
+S,94,949,94936,9493600,Activities of associative organizations linked to culture and art
+S,94,949,94995,9499500,Associative activities not previously specified
+S,95,951,95118,9511800,Repair and maintenance of computers and peripheral equipment
+S,95,951,95126,9512600,Repair and maintenance of communication equipment
+S,95,952,95215,9521500,Repair and maintenance of personal and household electrical and electronic equipment
+S,95,952,95291,9529101,"Repair of footwear, handbags and travel goods"
+S,95,952,95291,9529102,"Keychains, Custom Singer Keychain"
+S,95,952,95291,9529103,Repair of watches
+S,95,952,95291,9529104,"Repair of bicycles, tricycles and other non-motorized vehicles"
+S,95,952,95291,9529105,Repair of furniture
+S,95,952,95291,9529106,Jewelery repairs
+S,95,952,95291,9529199,"Repair and maintenance of other personal and household articles and equipment, not specified elsewhere"
+S,96,960,96017,9601701,Laundries
+S,96,960,96017,9601702,Beauty Therapy
+S,96,960,96017,9601703,Towel rails
+S,96,960,96025,9602501,"Hairdressers, manicure and pedicure"
+S,96,960,96025,9602502,Aesthetic and other beauty care services
+S,96,960,96033,9603301,Management and maintenance of cemeteries
+S,96,960,96033,9603302,Cremation services
+S,96,960,96033,9603303,Burial Services
+S,96,960,96033,9603304,Self catering apartments
+S,96,960,96033,9603305,Somatoconservation services
+S,96,960,96033,9603399,"Funeral and related services, not elsewhere classified"
+S,96,960,96092,9609202,Marriage agencies
+S,96,960,96092,9609203,"Accommodation, hygiene and animal beautification"
+S,96,960,96092,9609204,Exploitation of coin-operated personal service machines
+S,96,960,96092,9609205,Sauna and bath activities
+S,96,960,96092,9609206,Tattoo and piercing services
+S,96,960,96092,9609207,Pet friendly
+S,96,960,96092,9609208,Hygiene and beautification of domestic animals
+S,96,960,96092,9609299,"Other personal service activities, not elsewhere classified"
+T,97,970,97005,9700500,Domestic services
+U,99,990,99008,9900800,International organizations and other extraterritorial institutions

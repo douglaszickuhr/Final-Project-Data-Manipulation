@@ -1,171 +1,208 @@
 library(tidyverse)
-library(tidyr)
 library(lubridate)
 library(reshape2)
-library(scales)
-library(googleLanguageR)
-library(readxl)
-library(zoo)
+source("functions.R")
 
+
+# Defines path
 path <- "data/procon/"
-gapijson <- "data/googleapi/credential.json"
-cnae <- "data/cnae/Lista.xlsx"
 
-
-# Read files
-files <- paste0(path,list.files(path))
-
-# Function to auth on google
-authGoogle <- function(json){
-  gl_auth(json)
-}
-
-# Wrapper function to translate text
-translate <- function(text_to_translate,source,target){
-  gl_translate(t_string = text_to_translate,
-               target = target,
-               source = source,
-               format = "text",
-               model = c("nmt", "base")
-  )
-}
-
-# Function to translate text
-fillNAgaps <- function(x, firstBack=FALSE) {
-  ## NA's in a vector or factor are replaced with last non-NA values
-  ## If firstBack is TRUE, it will fill in leading NA's with the first
-  ## non-NA value. If FALSE, it will not change leading NA's.
+# Function to read and return a list with all the activities types
+read_activities <- function(path,files) {
   
-  # If it's a factor, store the level labels and convert to integer
-  lvls <- NULL
-  if (is.factor(x)) {
-    lvls <- levels(x)
-    x    <- as.integer(x)
+  # Creates a new list
+  return_list <- list()
+  
+  # Iterates on files array
+  for (file in files){
+    
+    # Removing the extension from the file name and lowering 
+    df_name <- tolower(str_replace_all(file,"\\..*$",""))
+    
+    # Appends the list with the new 
+    return_list[[df_name]] <- read_csv(paste0(path,file))
   }
   
-  goodIdx <- !is.na(x)
-  
-  # These are the non-NA values from x only
-  # Add a leading NA or take the first good value, depending on firstBack   
-  if (firstBack)   goodVals <- c(x[goodIdx][1], x[goodIdx])
-  else             goodVals <- c(NA,            x[goodIdx])
-  
-  # Fill the indices of the output vector with the indices pulled from
-  # these offsets of goodVals. Add 1 to avoid indexing to zero.
-  fillIdx <- cumsum(goodIdx)+1
-  
-  x <- goodVals[fillIdx]
-  
-  # If it was originally a factor, convert it back
-  if (!is.null(lvls)) {
-    x <- factor(x, levels=seq_along(lvls), labels=lvls)
-  }
-  
-  x
+  return_list
 }
-
-
-# Reading Activities List
-Activities_List <- readxl::read_xlsx(path = cnae,
-                          col_names = c("Section","Division","Group","Class","Subclass","Description"),
-                          trim_ws = T,
-                        skip = 1)
-
-# Reading Activities List
-Activities_List <- Activities_List %>%
-  filter((!str_detect(Section,"conti") &
-          !str_detect(Section,"2.2 Estrutu") &
-          !str_detect(Section,"Seç") & 
-          !str_detect(Section,"esolu") & 
-          !str_detect(Section,"conc")) | (is.na(Section))) %>%
-  filter_all(any_vars(!is.na(.))) %>%
-  mutate(
-    Class = if_else(is.na(Section) & is.na(Division) & is.na(Group), fillNAgaps(Class), NA_character_),
-    Group = if_else(is.na(Section) & is.na(Division), fillNAgaps(Group), NA_character_),
-    Division = if_else(is.na(Section), fillNAgaps(Division), NA_character_),
-    Section = fillNAgaps(Section)
-  ) %>%
-  mutate(
-    Division = str_replace_all(Division,"[\\.\\-]",replacement = ""),
-    Group = str_replace_all(Group,"[\\.\\-\\/]",replacement = ""),
-    Class = str_replace_all(Class,"[\\.\\-\\/]",replacement = ""),
-    Subclass = str_replace_all(Subclass,"[\\.\\-\\/]",replacement = "")
-  )
-
-Activities_Section <- Activities_List %>%
-  filter(is.na(Division) & is.na(Group) & is.na(Class) & is.na(Subclass)) %>%
-  select(Section,Description)
-
-Activities_Division <- Activities_List %>%
-  filter(!is.na(Division) & is.na(Group) & is.na(Class) & is.na(Subclass)) %>%
-  select(Division,Description)
-
-Activities_Group <- Activities_List %>%
-  filter(!is.na(Division) & !is.na(Group) & is.na(Class) & is.na(Subclass)) %>% 
-  select(Group,Description)
-
-Activities_Class <- Activities_List %>%
-  filter(!is.na(Division) & !is.na(Group) & !is.na(Class) & is.na(Subclass)) %>% 
-  select(Class,Description)
-
-
-
-
 
 # Reading the files into a single df
-df <- map_df(files, 
-             read_csv, 
-             col_types = "icccccccicccciccicicccc",
-             na = c("","NULL"))
-df$DataAbertura <- ymd_hms(df$DataAbertura)
-df$DataArquivamento <- ymd_hms(df$DataAbertura)
-df$Regiao <- factor(df$Regiao)
-df$UF <- factor(df$UF)
-df$strRazaoSocial <- factor(df$strRazaoSocial)
-df$Tipo <- factor(df$Tipo)
-df$RazaoSocialRFB <- factor(df$RazaoSocialRFB)
-
-# Recoding Regions
-Regions <- df %>%
-  distinct(CodigoRegiao,Regiao) %>%
-  arrange(CodigoRegiao)
-
-token <- authGoogle(gapijson)
-
-translate(Regions$text,
-          source = "pt-br",
-          target = "en")
-
-Regions <- gl_translate(as.character(Regions$Regiao), 
-             target = "en", 
-             format = c("text"), 
-             source = "pt",
-             model = c("nmt", "base"))
+read_complaint_files <- function (path,files,col_types,na = c("","NA","NULL")){
+  
+  #df <- read_csv(files[1],
+  #               na = c("","NULL"))
+   df <- map_df(files, 
+                read_csv, 
+                col_types = col_types,
+                na = na)
+  df
+}
 
 
-Subject <- df %>%
-  distinct(CodigoAssunto,DescricaoAssunto) %>%
-  arrange(CodigoAssunto)
+manipulates_complaints_files <- function(df, activities){
+  df$DataAbertura <- ymd_hms(df$DataAbertura)
+  df$DataArquivamento <- ymd_hms(df$DataArquivamento)
+  df$CodigoRegiao <- NULL
+  df$Regiao <- factor(df$Regiao)
+  df$UF <- factor(df$UF)
+  df$strRazaoSocial <- factor(df$strRazaoSocial)
+  df$Tipo <- factor(df$Tipo)
+  df$RazaoSocialRFB <- factor(df$RazaoSocialRFB)
+  df$Atendida <- factor(df$Atendida)
+  df$CodigoAssunto <- NULL
+  df$DescricaoAssunto <- factor(df$DescricaoAssunto)
+  df$CodigoProblema <- NULL
+  df$DescricaoProblema <- factor(df$DescricaoProblema)
+  df$SexoConsumidor <- factor(df$SexoConsumidor)
+  df$FaixaEtariaConsumidor <- factor(df$FaixaEtariaConsumidor)
+  df$DescCNAEPrincipal <- NULL
+  df$strNomeFantasia <- NULL
+  df$NomeFantasiaRFB <- NULL
+  df$NumeroCNPJ <- NULL
+  
+  df <- df  %>%
+    mutate(CNAEPrincipal = as.character(CNAEPrincipal)) %>%
+    mutate(CNAEPrincipal = if_else(str_length(CNAEPrincipal) == 5, paste0("00",CNAEPrincipal),CNAEPrincipal),
+           CNAEPrincipal = if_else(str_length(CNAEPrincipal) == 6, paste0("0",CNAEPrincipal), CNAEPrincipal))
+  
+  df <- df %>%
+    mutate(CNAEPrincipal = if_else(CNAEPrincipal == "5822100", "5822101", CNAEPrincipal),
+           CNAEPrincipal = if_else(CNAEPrincipal == "8888888", NA_character_, CNAEPrincipal),
+           CNAEPrincipal = if_else(CNAEPrincipal == "6201500", "6201501", CNAEPrincipal),
+           CNAEPrincipal = if_else(CNAEPrincipal == "8020000", "8020001", CNAEPrincipal),
+           CNAEPrincipal = if_else(CNAEPrincipal == "5812300", "5812301", CNAEPrincipal),
+           CNAEPrincipal = if_else(CNAEPrincipal == "9412000", "9412001", CNAEPrincipal),
+           CNAEPrincipal = if_else(CNAEPrincipal == "4751200", "4751201", CNAEPrincipal),
+           CNAEPrincipal = if_else(CNAEPrincipal == "7410201", "7410202", CNAEPrincipal),
+           CNAEPrincipal = if_else(CNAEPrincipal == "2013400", "2013401", CNAEPrincipal)
+    )
+  
+  df <- df %>%
+    left_join(activities[["subclasses"]],
+              by = c("CNAEPrincipal" = "Subclass")) %>%
+    left_join(activities[["sections"]],
+              by = c("Section" = "Section"),
+              suffix = c("",".section")) %>%
+    left_join(activities[["divisions"]],
+              by = c("Division" = "Division"),
+              suffix = c("",".division")) %>%
+    left_join(activities[["groups"]],
+              by = c("Group" = "Group"),
+              suffix = c("",".group")) %>%
+    left_join(activities[["classes"]],
+              by = c("Class","Class"),
+              suffix = c("",".class"))
+  
+  df <- df %>%
+    mutate(Atendida = fct_recode(Atendida,
+                                 "Y" = "S",
+                                 "N" = "N")
+           )
+    
+  df
+}
 
-Subject_Translated <- translate(Subject$DescricaoAssunto,
-          source = "pt-br",
-          target = "en")
+translate_categories <- function(df,categories){
+  
+  df <- df %>%
+    left_join(categories[["ages"]],
+              by = c("FaixaEtariaConsumidor" = "FaixaEtariaConsumidor"),
+              suffix = c("","_age")) %>%
+    left_join(categories[["issues"]],
+              by = c("DescricaoProblema" = "DescricaoProblema"),
+              suffix = c("","_issue")) %>%
+    left_join(categories[["regions"]],
+              by = c("Regiao" = "Regiao"),
+              suffix = c("","_region")) %>%
+    left_join(categories[["subjects"]],
+              by = c("DescricaoAssunto" = "DescricaoAssunto"),
+              suffix = c("","_subject"))
+  df
+}
+
+cleanup_df <- function(df){
+  df$Regiao <- NULL
+  df$strRazaoSocial <- NULL
+  df$DescricaoAssunto <- NULL
+  df$DescricaoProblema <- NULL
+  df$FaixaEtariaConsumidor <- NULL
+  df$Section <- NULL
+  df$Division <- NULL
+  df$Group <- NULL
+  df$Class <- NULL
+  
+  variables <- c("complaint_year", "complaint_closed_date", "complaint_entered_date", "consumer_state", "type",
+                 "company_number", "company_name", "company_activity_code", "complaint_attended", "consumer_sex",
+                 "consumer_post_code", "company_subclass", "company_sector", "company_division", "company_group",
+                 "company_class", "consumer_age", "complaint_issue_type", "consumer_region", "complaint_subject")
+  names(df) <- variables
+  df %>% 
+    mutate(complaint_issue_type = factor(complaint_issue_type),
+           complaint_subject = factor(complaint_subject),
+           consumer_region = factor(consumer_region),
+           consumer_age = factor(consumer_age),
+           company_activity_code = factor(company_activity_code),
+           company_sector = factor(company_sector),
+           company_division = factor(company_division),
+           company_group = factor(company_group),
+           company_class = factor(company_class),
+           company_subclass = factor(company_subclass)
+           ) %>%
+    select(complaint_year, complaint_entered_date, complaint_closed_date, complaint_subject, complaint_issue_type, complaint_attended,
+           consumer_region, consumer_post_code, consumer_state, consumer_age, consumer_sex,  
+           company_number, company_name, company_activity_code, company_sector, company_division, company_group, company_class, company_subclass)
+}
+
+sector_summarisation <- function(df){
+  df <- df %>%
+    mutate(complaint_duration = if_else(complaint_attended == "Y", 
+                                        round(difftime(complaint_closed_date,
+                                                 complaint_entered_date,
+                                                 units = c("days")),digits = 0),
+                                        NA_real_)) %>%
+    group_by(company_sector) %>%
+    summarise(complaints_total = n(),
+              complaints_solved = sum(complaint_attended == "Y"),
+              complaints_issue_variation = n_distinct(complaint_issue_type),
+              complaint_average_duration = round(mean(complaint_duration,
+                                            na.rm = T),digits = 2))
+}
+
+# Loading Files names
+files <- paste0(path,list.files(path,pattern = "recl.*\\.csv"))
+
+# Loading Activities
+activities <- read_activities("data/cnae/",
+                              list.files("data/cnae/",pattern = "*.csv"))
+
+# Loading Activities
+categories <- read_activities("data/procon/",
+                              list.files("data/procon/",pattern = "^[^recla.*].*"))
+
+df <- read_complaint_files(path,
+                           files = files,
+                           col_types = "ccccccccccccccccccccccc")
+
+df <- manipulates_complaints_files(df, activities)
+
+df <- translate_categories(df,categories)
+
+df <- cleanup_df(df)
+
+sector_summary <- sector_summarisation(df)
+sector_summary <- sector_summary %>%
+  select(company_sector,
+         complaints_total,
+         complaints_solved) %>%
+  melt()
+
+ggplot(sector_summary) + 
+  geom_bar(aes(x=company_sector,
+               y=value,
+               fill=variable),
+           stat = "identity",
+           position="dodge") + 
+  coord_flip()
+  
 
 
-Issues <- df %>%
-  distinct(CodigoProblema,DescricaoProblema) %>%
-  arrange(CodigoProblema)
-
-Issues_Translated <- translate(Issues$DescricaoProblema,
-                               source = "pt-br",
-                               target = "en")
-
-Age <- df %>%
-  distinct(FaixaEtariaConsumidor)
-
-Activity <- df %>%
-  distinct(DescCNAEPrincipal)
-
-Activity_Translated <- translate(Activity$DescCNAEPrincipal,
-                                 source = "pt-br",
-                                 target = "en")

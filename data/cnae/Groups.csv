@@ -1,0 +1,286 @@
+Group,Description
+011,Production of temporary crops
+012,Horticulture and floriculture
+013,Production of permanent crops
+014,Production of certified seed and seedlings
+015,Real Estate Management
+016,Support activities for agriculture and livestock; post-harvest activities
+017,Hunting and related services
+021,Forestry production - planted forests
+022,Forest production - native forests
+023,Support activities for forestry production
+031,Fishing
+032,Aquaculture
+050,Extraction of coal
+060,Extraction of oil and natural gas
+071,Extraction of iron ore
+072,Extraction of non-ferrous metal ores
+081,"Extraction of stone, sand and clay"
+089,Extraction of other non-metallic minerals
+091,Support activities for the extraction of oil and natural gas
+099,"Activities to support the extraction of minerals, other than oil and natural gas"
+101,Slaughter and manufacture of meat products
+102,Preservation of fish and manufacture of fish products
+103,Manufacture of canned fruit and vegetables
+104,Manufacture of vegetable and animal oils and fats
+105,Dairy Products
+106,"Grinding, manufacture of starch products and animal feed"
+107,Manufacture and refining of sugar
+108,Roasting and grinding of coffee
+109,Manufacture of other food products
+111,Manufacture of alcoholic beverages
+112,Manufacture of non-alcoholic beverages
+121,Industrial smoke processing
+122,Manufacture of tobacco products
+131,Preparation and spinning of textile fibers
+132,"Weaving, except knitted"
+133,Manufacture of knitted and crocheted fabrics
+134,"Textile yarn, fabric and textile finishing"
+135,Manufacture of other textile products
+141,Manufacture of wearing apparel and accessories
+142,Manufacture of knitted and crocheted articles
+151,Tanning and other leather preparations
+152,Manufacture of luggage and leather articles
+153,Manufacture of footwear
+154,"Manufacture of parts for footwear, of any material"
+161,Wood splitting
+162,"Manufacture of products of wood, cork and plaited materials, other than furniture"
+171,Manufacture of pulp and paper pulp
+172,Manufacture of paper and paperboard
+173,"Manufacture of paper and paperboard, corrugated cardboard and paperboard"
+174,"Manufacture of other products from paper, paperboard, paperboard and corrugated cardboard"
+181,Print Activity
+182,Pre-press services and graphic finishing
+183,Playback of recorded material on any media
+191,Coquerias
+192,Manufacture of petroleum products
+193,Manufacture of biofuels
+201,Manufacture of inorganic chemicals
+202,Manufacture of organic chemicals
+203,Manufacture of resins and elastomers
+204,Manufacture of artificial and synthetic fibers
+205,"Manufacture of pesticides, disinfectants and pesticides"
+206,"Manufacture of soap, detergents, cleaning products, cosmetics, perfumery and personal care products"
+207,"Manufacture of paints, varnishes, enamels, lacquers and related products"
+209,Manufacture of other chemical products and preparations
+211,Manufacture of pharmaceutical products
+212,Manufacture of pharmaceutical products
+221,Manufacture of rubber products
+222,Manufacture of plastic products
+231,Manufacture of glass and glass products
+232,Manufacture of cement
+233,"Manufacture of articles of concrete, cement, cement, plaster and similar materials"
+234,Manufacture of ceramic products
+239,Stone working and other non-metallic mineral products manufacturing
+241,Manufacture of pig iron and ferro-alloys
+242,Siderurgy
+243,"Manufacture of steel tubes, other than seamless pipes and tubes"
+244,Metallurgy of non-ferrous metals
+245,Foundry
+251,Manufacture of builders' carpentry and joinery
+252,"Manufacture of tanks, reservoirs, metallic and boiler"
+253,"Forging, stamping, powder metallurgy and metal processing services"
+254,"Manufacture of cutlery, hardware and tools"
+255,"Manufacture of heavy military equipment, weapons and ammunition"
+259,Manufacture of metal products nec
+261,Manufacture of electronic components
+262,Manufacture of computer and peripheral equipment
+263,Manufacture of communication equipment
+264,"Manufacture of audio, video recording, reception and reproducing apparatus"
+265,"Manufacture of apparatus and instruments for measuring, testing and control; chronometers and clocks"
+266,Manufacture of electromedical and electrotherapeutic equipment and irradiation equipment
+267,"Manufacture of optical, photographic and cinematographic equipment and instruments"
+268,"Manufacture of virgin, magnetic and optical media"
+271,"Manufacture of generators, transformers and electric motors"
+272,"Manufacture of batteries, electric accumulators and batteries"
+273,Manufacture of electricity distribution and control equipment
+274,Manufacture of lamps and lighting equipment
+275,Manufacture of household appliances
+279,Manufacture of electrical equipment and apparatus not elsewhere classified
+281,"Manufacture of engines, pumps, compressors and transmission equipment"
+282,Manufacture of other general-purpose machinery and equipment
+283,Manufacture of tractors and machinery and equipment for agriculture and livestock
+284,Manufacture of machine tools
+285,Manufacture of machinery and equipment for mineral extraction and construction
+286,Manufacture of machinery and equipment for specific industrial use
+291,"Manufacture of cars, vans and SUV's"
+292,Manufacture of trucks and buses
+293,"Manufacture of cabins, coachwork and trailers for motor vehicles"
+294,Manufacture of parts and accessories for motor vehicles
+295,Reconditioning and recovery of engines for motor vehicles
+301,Construction of boats
+303,Manufacture of railway vehicles
+304,Manufacture of aircraft
+305,Manufacture of military vehicles
+309,"Manufacture of transport equipment, not elsewhere classified"
+310,Manufacture of furniture
+321,Manufacture of jewelery and related articles
+322,Manufacture of musical instruments
+323,Manufacture of fishing and sporting goods
+324,Manufacture of toys and games
+325,"Manufacture of instruments and materials for medical, dental and optical goods"
+329,Manufacture of other products
+331,Maintenance and repair of machinery and equipment
+332,Installation of machinery and equipment
+351,"Generation, transmission and distribution of electricity"
+352,Production and distribution of gaseous fuels through urban networks
+353,"Production and distribution of steam, hot water and air conditioning"
+360,"Water collection, treatment and distribution"
+370,Sewage and related activities
+381,Collection of waste
+382,Treatment and disposal of waste
+383,Recovery of materials
+390,Decontamination and other waste management services
+411,Incorporation of real estate projects
+412,Building Construction
+421,"Construction of highways, railways, urban works and special works of art"
+422,"Infrastructure works for electricity, telecommunications, water, sewage and pipeline transport"
+429,Construction of other infrastructure works
+431,Demolition and site preparation
+432,"Electrical, hydraulic and other installations in buildings"
+433,Finishing work
+439,Other specialized construction services
+451,Construction Materials
+452,Maintenance and repair of motor vehicles
+453,Sale of motor vehicle parts and accessories
+454,"Trade, maintenance and repair of motorcycles, parts and accessories"
+461,"Commercial representatives and agents of commerce, except motor vehicles and motorcycles"
+462,Wholesale of agricultural raw materials and live animals
+463,"Wholesale trade specialized in food, beverages and tobacco products"
+464,Wholesale trade in non-food consumer products
+465,Wholesale trade of equipment and products of information and communication technologies
+466,"Wholesale of machinery, apparatus and equipment except for information and communication technologies"
+467,"Wholesale of wood, ironmongery, tools, electrical material and construction material"
+468,Wholesale trade specializing in other products
+469,Non-specialized wholesale trade
+471,Non-specialized retail trade
+472,"Retail sale of food, beverages and tobacco"
+473,Retail trade of motor vehicle fuels
+474,Retail sale of construction materials
+475,Retailing of computer and communication equipment; equipment and household goods
+476,"Retail sale of cultural, recreational and sports articles"
+477,"Retail sale of pharmaceuticals, perfumery, cosmetics and medical, optical and orthopedic articles"
+478,"Retail sale of new products, unspecified and used"
+479,Retail trade and other types of retail trade
+491,Railway and subway rail transport
+492,Road transport of passengers
+493,Road transport of cargo
+494,Ductwork transportation
+495,"Tourist trains, cable cars and similar"
+501,Cabotage and long haul shipping
+502,Inland waterway transport
+503,Support navigation
+509,Other water transport
+511,Air Freight
+512,Air freight transport
+513,Space transportation
+521,"Storage, loading and unloading"
+522,Activities auxiliary to land transport
+523,Activities auxiliary to water transport
+524,Activities auxiliary to air transport
+525,Activities related to the organization of cargo transportation
+531,Mail Activities
+532,Pouch and delivery activities
+551,Hotels and similar
+559,Other accommodation types not specified above
+561,Restaurants and other food and beverage services
+562,"Catering, catering and other food preparation services"
+581,"Publishing of books, newspapers, magazines and other publishing activities"
+582,"Editing integrated with the printing of books, newspapers, magazines and other publications"
+591,"Cinematographic activities, production of videos and television programs"
+592,Sound recording and music publishing activities
+601,Radio activities
+602,Television activities
+611,Telecommunications
+612,Wireless telecommunications
+613,Satellite Telecommunications
+614,Pay-TV operators
+619,Other telecommunications activities
+620,Services of other enterprises
+631,"Data processing, web hosting and other related activities"
+639,Other information service activities
+641,central bank
+642,Monetary intermediation - demand deposits
+643,Non-monetary intermediation - other funding instruments
+644,Lease
+645,Capitalization companies
+646,Activities of joint-stock companies
+647,Investment Funds
+649,Financial services activities not elsewhere specified or
+651,Life and non-life insurance
+652,Health insurance
+653,Reinsurance
+654,Supplementary pension plan
+655,Health insurance
+661,Activities auxiliary to financial services
+662,"Activities auxiliary to insurance, supplementary pension plans and health insurance"
+663,Activities of administration of funds by contract or commission
+681,Real estate activities on own property
+682,Real estate activities by contract or commission
+691,Legal activities
+692,"Accounting, bookkeeping and auditing activities, accounting and tax"
+701,Company headquarters and local administrative units
+702,Business management consultancy activities
+711,"Architectural, engineering and related technical activities"
+712,Technical testing and analysis
+721,Research and experimental development in the physical and natural sciences
+722,Research and experimental development in social and human sciences
+731,publicity
+732,Market research and public opinion
+741,Design and interior decoration
+742,Photographic and similar activities
+749,"Professional, scientific and technical activities not elsewhere specified"
+750,Veterinary activities
+771,Rental of means of transport without driver
+772,Rent of personal and domestic objects
+773,Rental of machinery and equipment without operator
+774,Management of non-financial intangible assets
+781,Selection and agency of labor
+782,Leasing of temporary labor
+783,Provision and management of human resources for third parties
+791,Travel agencies and tour operators
+799,"Reservation services and other tourist services, not elsewhere classified"
+801,"Surveillance, private security and securities transport activities"
+802,Activities of monitoring of security systems
+803,Private investigation activities
+811,Combined support services for buildings
+812,Cleaning activities
+813,Landscape Activities
+821,Office services and administrative support
+822,Telemarketing activities
+823,"Activities of organization of events, except cultural and sporting activities"
+829,Other business-related service activities
+841,Administration of state and economic and social policy
+842,Collective services provided by public administration
+843,Compulsory social security
+851,Early Childhood Education and Elementary Education
+852,High school
+853,college education
+854,Professional education of technical and technological level
+855,Education support activities
+859,Other teaching activities
+861,Hospital care activities
+862,Mobile emergency and patient removal services
+863,Ambulatory care activities performed by doctors and dentists
+864,Activities of diagnostic and therapeutic complementation services
+865,"Activities of health professionals, except doctors and dentists"
+866,Health management support activities
+869,Human health care activities not elsewhere specified
+871,"Assistance activities for elderly, disabled, immunodepressed and convalescent, and infrastructure and support for patients provided in collective and private residences"
+872,"Psychosocial and health care activities for persons with mental disorders, mental disabilities and chemical dependence"
+873,Social assistance activities provided in collective and private residences
+880,Social work services without accommodation
+900,"Artistic, creative and entertainment activities"
+910,Activities related to cultural and environmental heritage
+920,Gambling and betting activities
+931,Sport activities
+932,Leisure and recreation activities
+941,"Activities of employers, business and professional associations"
+942,Activities of trade unions
+943,Activities of associations of defense of social rights
+949,Activities of membership organizations not elsewhere specified
+951,Repair and maintenance of computer and communication equipment
+952,Repair and maintenance of personal and household objects and equipment
+960,Other personal service activities
+970,Domestic services
+990,International organizations and other extraterritorial institutions

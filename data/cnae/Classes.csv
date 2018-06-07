@@ -1,0 +1,674 @@
+Class,Description
+01113,Self catering apartments
+01121,Growing of herbaceous cotton and other fibrous tanners
+01130,Growing of sugar cane
+01148,Smoking Crop
+01156,Soybean cultivation
+01164,"Growing of temporary crops, except soybean"
+01199,Growing of temporary crops not elsewhere specified
+01211,Horticulture
+01229,Growing of flowers and ornamental plants
+01318,Orange cultivation
+01326,Grape cultivation
+01334,Growing of permanent crops except orange and grape
+01342,Coffee cultivation
+01351,Cacao cultivation
+01393,Growing of non-perennial crops
+01415,Production of certified seeds
+01423,"Production of seedlings and other forms of plant propagation, certified"
+01512,Breeding of cattle
+01521,Creation of other large animals
+01539,Raising of goats and sheep
+01547,Breeding of pigs
+01555,Breeding of birds
+01598,Breeding of animals not elsewhere specified
+01610,Support activities for agriculture
+01628,Livestock support activities
+01636,Post-harvest activities
+01709,Hunting and related services
+02101,Forestry production - planted forests
+02209,Forest production - native forests
+02306,Support activities for forestry production
+03116,Fishing in salt water
+03124,Freshwater fishing
+03213,Aquaculture in salt and brackish water
+03221,Freshwater aquaculture
+05003,Extraction of coal
+06000,Extraction of oil and natural gas
+07103,Extraction of iron ore
+07219,Extraction of aluminum ore
+07227,Extraction of tin ore
+07235,Extraction of manganese ore
+07243,Extraction of ore from precious metals
+07251,Extraction of radioactive minerals
+07294,Extraction of non-ferrous metal ores not elsewhere specified
+08100,"Extraction of stone, sand and clay"
+08916,"Extraction of minerals for the manufacture of fertilizers, fertilizers and other chemical products"
+08924,Extraction and refining of sea salt and rock salt
+08932,Extraction of gemstones (precious and semi-precious stones)
+08991,Extraction of nonmetallic minerals not specified above
+09106,Support activities for the extraction of oil and natural gas
+09904,"Activities to support the extraction of minerals, other than oil and natural gas"
+10112,"Slaughter of cattle, other than pigs"
+10121,"Slaughter of pigs, poultry and other small animals"
+10139,Manufacture of meat products
+10201,Preservation of fish and manufacture of fish products
+10317,Manufacture of canned fruit
+10325,Manufacture of canned vegetables and other vegetables
+10333,"Manufacture of fruit juices, vegetables and legumes"
+10414,Manufacture of crude vegetable oils other than maize oil
+10422,"Manufacture of refined vegetable oils, other than maize"
+10431,Manufacture of margarine and other vegetable fats and oils of animal origin
+10511,Preparation of milk
+10520,Manufacture of dairy products
+10538,Manufacture of ice cream and other edible ice-cream
+10619,Processing of rice and manufacture of rice products
+10627,Wheat milling and manufacture of by-products
+10635,Manufacture of manioc flour and
+10643,"Manufacture of corn flour and products, other than maize"
+10651,Manufacture of grain starches and starches
+10660,Manufacture of animal feed
+10694,Grinding and manufacture of products of vegetable origin nes
+10716,Manufacture of raw sugar
+10724,Manufacture of refined sugar
+10813,Roasting and grinding of coffee
+10821,Manufacture of coffee products
+10911,Manufacture of bakery products
+10929,Manufacture of biscuits and biscuits
+10937,"Manufacture of products derived from cocoa, chocolate and confectionery"
+10945,Manufacture of macaroni
+10953,"Manufacture of spices, seasonings, herbs and spices"
+10961,Manufacture of ready-made foods and dishes
+10996,Manufacture of food products nec
+11119,Manufacture of spirits and other distilled beverages
+11127,Manufacture of wine
+11135,"Manufacture of malt, beer and beer"
+11216,Manufacture of bottled water
+11224,Manufacture of soft drinks and other non-alcoholic beverages
+12107,Industrial smoke processing
+12204,Manufacture of tobacco products
+13111,Preparation and spinning of cotton fibers
+13120,"Preparation and spinning of natural textile fibers, other than cotton"
+13138,Wiring of artificial and synthetic fibers
+13146,Manufacture of sewing and embroidery lines
+13219,Weaving of cotton yarn
+13227,"Weaving of natural textile fibers, other than cotton"
+13235,Weaving of artificial and synthetic fibers
+13308,Manufacture of knitted and crocheted fabrics
+13405,"Textile yarn, fabric and textile finishing"
+13511,Manufacture of other fabricated metal products
+13529,Manufacture of upholstery products
+13537,Manufacture of paper and paper products
+13545,Manufacture of special fabrics including artifacts
+13596,Manufacture of other textiles nec
+14118,Clothing manufacture
+14126,"Manufacture of garments, except underwear"
+14134,Clothing industry
+14142,"Manufacture of wearing apparel, except for safety and protection"
+14215,Manufacture of socks
+14223,"Manufacture of articles of apparel, knitted or crocheted, other than knitted or crocheted"
+15106,Tanning and other leather preparations
+15211,"Manufacture of travel goods, handbags and the like"
+15297,Manufacture of leather articles not elsewhere classified
+15319,Manufacture of leather footwear
+15327,Manufacture of sneakers
+15335,Manufacture of synthetic leather footwear
+15394,Manufacture of footwear of material not otherwise specified
+15408,"Manufacture of parts for footwear, of any material"
+16102,Wood splitting
+16218,"Manufacture of veneer sheet and plywood, pressed and bonded"
+16226,Manufacture of builders' carpentry and joinery
+16234,Manufacture of other fabricated metal products
+16293,"Manufacture of articles of wood, straw, cork, wicker and plaiting materials, not elsewhere classified, other than furniture"
+17109,Manufacture of pulp and paper pulp
+17214,Manufacture of paper
+17222,Manufacture of paper and paperboard
+17311,Manufacture of paper products
+17320,Manufacture of paper and paper products
+17338,Manufacture of corrugated board and sheet metal products
+17419,"Manufacture of paper products, paperboard, cardboard and corrugated paper for commercial and office use"
+17427,Manufacture of paper products for household and sanitary purposes
+17494,"Manufacture of pulp, paper, paperboard, corrugated paperboard and cardboard products not elsewhere classified"
+18113,"Printing of newspapers, books, magazines and other periodicals"
+18121,Printing of security material
+18130,Printing of materials for other uses
+18211,Prepress Services
+18229,Graphic finishing services
+18300,Playback of recorded material on any media
+19101,Coquerias
+19217,Manufacture of petroleum refining products
+19225,"Manufacture of petroleum products, except refining products"
+19314,Manufacture of alcohol
+19322,"Manufacture of biofuels, except alcohol"
+20118,Manufacture of chlorine and alkalis
+20126,Manufacture of fertilizers
+20134,Manufacture of fertilizers
+20142,Manufacture of industrial gases
+20193,Manufacture of inorganic chemicals nec
+20215,Manufacture of basic petrochemical products
+20223,"Manufacture of intermediates for plasticizers, resins and fibers"
+20291,Manufacture of organic chemicals
+20312,Manufacture of thermoplastic resins
+20321,Manufacture of thermosetting resins
+20339,Manufacture of elastomers
+20401,Manufacture of artificial and synthetic fibers
+20517,Manufacture of pesticides
+20525,Manufacture of disinfectants
+20614,Manufacture of synthetic soaps and detergents
+20622,Manufacture of cleaning and polishing products
+20631,"Manufacture of cosmetics, perfumery and toilet preparations"
+20711,"Manufacture of paints, varnishes, enamels and lacquers"
+20720,Manufacture of printing inks
+20738,"Manufacture of water-proofing materials, solvents and related products"
+20916,Manufacture of adhesives and sealants
+20924,Manufacture of explosives
+20932,Manufacture of additives for industrial use
+20941,Manufacture of catalysts
+20991,Manufacture of chemicals not classified elsewhere
+21106,Manufacture of pharmaceutical products
+21211,Manufacture of medicinal products for human use
+21220,Manufacture of veterinary preparations
+21238,Manufacture of pharmaceutical preparations
+22111,Manufacture of tires and inner tubes
+22129,Repairs of used tires
+22196,Manufacture of rubber products not elsewhere classified
+22218,Manufacture of plastics and metal products
+22226,Manufacture of plastic packaging
+22234,Manufacture of plastic pipes and fittings for construction purposes
+22293,Manufacture of articles of plastics
+23117,Manufacture of flat glass and security glass
+23125,Manufacture of glass containers
+23192,Manufacture of glassware
+23206,Manufacture of cement
+23303,"Manufacture of articles of concrete, cement, cement, plaster and similar materials"
+23419,Manufacture of refractory products
+23427,Manufacture of non-refractory ceramic products for structural use in construction
+23494,Manufacture of non-refractory ceramic products nec
+23915,Rigging and other stone working
+23923,Manufacture of lime and plaster
+23991,Manufacture of non-metallic mineral products
+24113,Pig iron production
+24121,Production of ferroalloys
+24211,Production of semi-finished steel
+24229,Production of steel flat-rolled products
+24237,Production of long rolled steel
+24245,"Production of re-rolled, drawn and steel sections"
+24318,Manufacture of welded steel tubes
+24393,Production of other iron and steel pipes
+24415,Metallurgy of aluminum and their alloys
+24423,Metallurgy of precious metals
+24431,Copper metallurgy
+24491,Metallurgy of nonferrous metals and their alloys NES
+24512,Cast iron and steel
+24521,Casting of non-ferrous metals and their alloys
+25110,Manufacture of metal structures
+25128,Manufacture of metal frames
+25136,Manufacture of builders' carpentry and joinery
+25217,"Manufacture of tanks, reservoirs, metal and central heating boilers"
+25225,"Manufacture of steam generating boilers, except central heating and vehicle"
+25314,Manufacture of steel and non-ferrous metal and their alloys
+25322,Manufacture of stamped metal articles; powder metallurgy
+25390,"Metal machining, soldering, treatment and coating services"
+25411,Manufacture of cutlery
+25420,Manufacture of articles of iron or steel
+25438,Manufacturing of tools
+25501,"Manufacture of heavy military equipment, firearms and ammunition"
+25918,Manufacture of metal containers
+25926,Manufacture of wire drawing products
+25934,Manufacture of metal products for household and personal use
+25993,Manufacture of metal products nec
+26108,Manufacture of electronic components
+26213,Manufacture of computer equipment
+26221,Manufacture of computer peripherals
+26311,Manufacture of communication equipment
+26329,Manufacture of telephone and other communication equipment
+26400,"Manufacture of audio, video recording, reception and reproducing apparatus"
+26515,"Manufacture of measuring, testing and control apparatus and equipment"
+26523,Manufacture of chronometers and clocks
+26604,Manufacture of electromedical and electrotherapeutic equipment and irradiation equipment
+26701,"Manufacture of optical, photographic and cinematographic equipment and instruments"
+26809,"Manufacture of virgin, magnetic and optical media"
+27104,"Manufacture of generators, transformers and electric motors"
+27210,"Manufacture of batteries, electric accumulators, except for motor vehicles"
+27228,Manufacture of batteries and accumulators for motor vehicles
+27317,Manufacture of electricity distribution and control apparatus and equipment
+27325,Manufacture of other electrical equipment
+27333,"Manufacture of electrical wires, cables and conductors, insulated"
+27406,Manufacture of lamps and lighting equipment
+27511,"Manufacture of cookers, refrigerators, washing machines and dryers"
+27597,Manufacture of domestic appliances not elsewhere classified
+27902,Manufacture of electrical equipment and apparatus not elsewhere classified
+28119,"Manufacture of engines and turbines, except for airplanes and road vehicles"
+28127,"Manufacture of hydraulic and pneumatic equipment, except valves"
+28135,Manufacture of valves and similar articles
+28143,Manufacture of compressors
+28151,Manufacture of transmission equipment for industrial purposes
+28216,Manufacture of apparatus and equipment for thermal plants
+28224,"Manufacture of machinery, equipment and apparatus for the transport and elevation of loads and persons"
+28232,Manufacture of machinery and equipment for the industrial and commercial use
+28241,Manufacture of air conditioners and appliances
+28259,Manufacture of machinery and equipment for basic and environmental sanitation
+28291,Manufacture of other general-purpose machinery and equipment
+28313,Manufacture of agricultural tractors
+28321,Manufacture of agricultural irrigation equipment
+28330,"Manufacture of machinery and equipment for agriculture and livestock, except for irrigation"
+28402,Manufacture of machine tools
+28518,Manufacture of machinery and equipment for prospecting and extraction of petroleum
+28526,"Manufacture of other machinery and equipment for mineral extraction, except for petroleum extraction"
+28534,"Manufacture of tractors, except agricultural"
+28542,"Manufacture of machinery and equipment for earthmoving, paving and construction, except tractors"
+28615,"Manufacture of machinery for metallurgy, except machine tools"
+28623,"Manufacture of machinery and equipment for the food, beverages and tobacco industries"
+28631,Manufacture of machinery and equipment for the textile industry
+28640,"Manufacture of machinery and equipment for the clothing, leather and footwear industries"
+28658,"Manufacture of machinery and equipment for the pulp, paper and paperboard industries and artifacts"
+28666,Manufacture of machinery and equipment for the plastics industry
+28691,Manufacture of machinery and equipment for specific industrial use
+29107,"Manufacture of cars, vans and SUV's"
+29204,Manufacture of trucks and buses
+29301,"Manufacture of cabins, coachwork and trailers for motor vehicles"
+29417,Manufacture of parts and accessories for motor vehicles
+29425,Manufacture of parts and accessories for the systems of running and transmission of motor vehicles
+29433,Manufacture of parts and accessories for the brake system of motor vehicles
+29441,Manufacture of parts and accessories for the steering and suspension system of motor vehicles
+29450,"Manufacture of electrical and electronic equipment for motor vehicles, except batteries"
+29492,Manufacture of parts and accessories for motor vehicles not elsewhere classified
+29506,Reconditioning and recovery of engines for motor vehicles
+30113,Construction of floating vessels and structures
+30121,Construction of boats for sport and leisure
+30318,"Manufacture of locomotives, wagons and other rolling stock"
+30326,Manufacture of parts and accessories for railway vehicles
+30415,Manufacture of aircraft
+30423,"Manufacture of turbines, engines and other components and parts for aircraft"
+30504,Manufacture of military vehicles
+30911,Manufacture of motorcycles
+30920,Manufacture of non-motorized bicycles and tricycles
+30997,"Manufacture of transport equipment, not elsewhere classified"
+31012,Manufacture of wooden furniture
+31021,Manufacture of prefabricated metal furniture
+31039,Manufacture of other materials except wood and metal
+31047,Manufacture of mattresses
+32116,Cutting of gemstones and the manufacture of articles of jewelery and jewelery
+32124,Manufacture of jewelery and similar articles
+32205,Manufacture of musical instruments
+32302,Manufacture of fishing and sporting goods
+32400,Manufacture of toys and games
+32507,"Manufacture of instruments and materials for medical, dental and optical goods"
+32914,"Manufacture of brushes, brushes and brooms"
+32922,Manufacture of equipment and accessories for personal and professional safety and protection
+32990,Manufacture of miscellaneous goods
+33112,"Maintenance and repair of tanks, reservoirs and boilers, except for vehicles"
+33121,Maintenance and repair of electronic and optical equipment
+33139,Maintenance and repair of electrical machinery and equipment
+33147,Maintenance and repair of machinery and equipment of the mechanical industry
+33155,Maintenance and repair of railway vehicles
+33163,Maintenance and repair of aircraft
+33171,Boat maintenance and repair
+33198,Maintenance and repair of equipment and products nes
+33210,Installation of industrial machinery and equipment
+33295,Installation of equipment not previously specified
+35115,Electricity generation
+35123,Transmission of electricity
+35131,Wholesale trade of electricity
+35140,Distribution of electricity
+35204,Gas production; natural gas processing; distribution of gaseous fuels through urban networks
+35301,"Production and distribution of steam, hot water and air conditioning"
+36006,"Water collection, treatment and distribution"
+37011,Management of sewage networks
+37029,"Activities related to sewage, except network management"
+38114,Collection of non-hazardous waste
+38122,Collection of hazardous waste
+38211,Treatment and disposal of non-hazardous waste
+38220,Treatment and disposal of hazardous waste
+38319,Recovery of metal materials
+38327,Recovery of plastic materials
+38394,Recovery of materials not previously specified
+39005,Decontamination and other waste management services
+41107,Incorporation of real estate projects
+41204,Building Construction
+42111,Construction of highways and railways
+42120,Construction of special works of art
+42138,"Works of urbanization - streets, squares and sidewalks"
+42219,Works for the generation and distribution of electricity and for telecommunications
+42227,"Construction of water supply networks, sewage collection and related buildings"
+42235,"Construction of pipelines, except for water and sewage"
+42910,"Port, sea and river works"
+42928,Assembly of industrial plants and metal structures
+42995,Civil engineering works not elsewhere classified
+43118,Demolition and preparation of construction sites
+43126,Drilling and boring
+43134,Excavation works
+43193,Ground preparation services nes
+43215,Electrical installations
+43223,"Hydraulic systems, ventilation and cooling systems"
+43291,Construction work on buildings not specified above
+43304,Finishing work
+43916,Foundation works
+43991,Specialized construction services nes
+45111,Wholesale and retail trade of motor vehicles
+45129,Commercial representatives and agents of the motor vehicle trade
+45200,Maintenance and repair of motor vehicles
+45307,Sale of motor vehicle parts and accessories
+45412,"Wholesale and retail trade of motorcycles, parts and accessories"
+45421,"Commercial representatives and agents of the trade in motorcycles, parts and accessories"
+45439,Maintenance and repair of motorcycles
+46117,Trade representatives and agents in the trade in agricultural raw materials and live animals
+46125,"Trade representatives and agents in the trade in fuel, minerals, steel products and chemicals"
+46133,"Trade representatives and agents of the trade in timber, building materials and hardware"
+46141,"Commercial representatives and agents of the trade in machinery, equipment, vessels and aircraft"
+46150,"Commercial representatives and agents of the trade of household appliances, furniture and household goods"
+46168,"Trade representatives and agents in the textile, apparel, footwear and travel trade"
+46176,"Trade representatives and agents of the food, beverage and tobacco trade"
+46184,Commercial representatives and agents specializing in products not classified elsewhere
+46192,Trade representatives and agents of merchandise trade generally unspecialized
+46214,Wholesale coffee bean wholesale
+46222,Wholesale soybean trade
+46231,"Wholesale trade in live animals, feed and agricultural raw materials, except coffee and soya"
+46311,Wholesale trade of milk and dairy products
+46320,"Wholesale trade of processed cereals and legumes, flours, meals and starches"
+46338,Wholesale trade of horticultural crops
+46346,"Wholesale of meat, meat and fish products"
+46354,Wholesaler of beverages
+46362,Wholesale of tobacco products
+46371,Wholesale trade specialized in food products
+46397,Wholesale of food products in general
+46419,"Wholesale of fabrics, fabrics and haberdashery"
+46427,Wholesale of clothing and accessories
+46435,Wholesale of footwear and travel goods
+46443,Wholesale of pharmaceutical products for human and veterinary use
+46451,"Wholesale of instruments and materials for medical, surgical, orthopedic and dental use"
+46460,"Wholesale of cosmetics, perfumery and personal care products"
+46478,"Wholesale of office and stationery; books, newspapers and other publications"
+46494,"Wholesale of household and personal care articles and equipment, not elsewhere classified"
+46516,"Wholesale of computers, computer peripherals and supplies"
+46524,Wholesale of electronic components and telephone and communication equipment
+46613,"Wholesale of machinery, apparatus and equipment for agricultural use; parts and pieces"
+46621,"Wholesale of machinery, earthmoving, mining and construction equipment; parts and pieces"
+46630,Wholesale of machinery and equipment for industrial use; parts and pieces
+46648,"Wholesale of machinery, apparatus and equipment for dental-medical-hospital use; parts and pieces"
+46656,Wholesale trade of machines and equipment for commercial use; parts and pieces
+46699,"Wholesale of machinery, equipment and supplies not classified elsewhere; parts and pieces"
+46711,Wholesale of wood and derived products
+46729,Wholesale of hardware and tools
+46737,Wholesale of electrical equipment
+46745,Wholesale of cement
+46796,Specialized wholesale of construction materials not classified elsewhere and general construction materials
+46818,"Wholesale of solid, liquid and gaseous fuels other than natural gas and LPG"
+46826,Wholesaler of liquefied petroleum gas (LPG)
+46834,"Wholesale trade in pesticides, fertilizers, fertilizers and soil improvers"
+46842,"Wholesale trade of chemical and petrochemical products, except agrochemicals"
+46851,"Wholesale of steel and metallurgical products, except for construction"
+46869,"Wholesale of paper and paperboard, crude and packaging"
+46877,Wholesale of waste and scrap
+46893,"Wholesale specialized trade of other intermediary products, not elsewhere classified"
+46915,"Wholesale trade of goods in general, with predominance of food products"
+46923,"Wholesale trade of goods in general, with predominance of agricultural inputs"
+46931,"Wholesale trade of goods in general, without predominance of food or agricultural inputs"
+47113,"Retailing of merchandise in general, with predominance of food products - hypermarkets and supermarkets"
+47121,"Retailing of merchandise in general, with predominance of food products - mini-markets, grocery stores and warehouses"
+47130,"Retail trade in general merchandise, not predominantly food products"
+47211,"Retail trade in bakery products, dairy products, sweets, candies and the like"
+47229,Retail sale of meat and fish products - butchers and fishmongers
+47237,Retail sale of beverages
+47245,Retail sale of fruit and vegetables
+47296,Retailing of food products in general or specialized in food products not specified above; smoke products
+47318,Retail trade of motor vehicle fuels
+47326,Retailing of lubricants
+47415,Retail sale of paints and paint materials
+47423,Retail sale of electrical equipment
+47431,Retail sale of glass
+47440,"Retail sale of hardware, wood and building materials"
+47512,Specialized retailing of computer equipment and supplies
+47521,Specialized retail trade in telephony and communication equipment
+47539,Specialized retail trade of household appliances and audio and video equipment
+47547,"Specialized retail trade services of furniture, bedding and mattresses"
+47555,"Specialized retail trade of fabrics and bedding, table and bath articles"
+47563,Specialized retail trade of musical instruments and accessories
+47571,"Specialized retail trade in parts and accessories for home appliances, except computers and communication"
+47598,Retail sale of household articles not specified elsewhere
+47610,"Retail sale of books, newspapers, magazines and stationery"
+47628,"Retail sale of discs, CDs, DVDs and tapes"
+47636,Retailing of recreational and sports articles
+47717,Retail sale of pharmaceutical products for human and veterinary use
+47725,"Retail sale of cosmetics, perfumery and toilet preparations"
+47733,Retail sale of medical and orthopedic articles
+47741,Retail sale of optical goods
+47814,Retail sale of clothing and accessories
+47822,Retail sale of footwear and travel goods
+47831,Retail sale of jewelery and watches
+47849,Retail sale of liquefied petroleum gas (LPG)
+47857,Retail sale of used articles
+47890,"Retail sale of other new products, unspecified"
+47903,Retail trade and other types of retail trade
+49116,Railroad transportation of goods
+49124,Railroad transportation of passengers
+49213,"Collective road transport of passengers, with fixed itinerary, municipal and in the metropolitan region"
+49221,"Collective road transport of passengers, with fixed, intermunicipal, interstate and international itinerary"
+49230,Road transport by taxi
+49248,School bus
+49299,"Collective road passenger transport under charter and other road transport services, not otherwise specified"
+49302,Road transport of cargo
+49400,Ductwork transportation
+49507,"Tourist trains, cable cars and similar"
+50114,Maritime transport by cabotage
+50122,Long sea shipping
+50211,Inland waterway transport
+50220,Inland waterway transport of passengers on regular lines
+50301,Support navigation
+50912,Transportation by sea
+50998,"Water transport, not elsewhere classified"
+51111,Regular passenger air transport
+51129,Non-scheduled passenger air transport
+51200,Air freight transport
+51307,Space transportation
+52117,Storage
+52125,Loading and unloading
+52214,"Concessionaires of highways, bridges, tunnels and related services"
+52222,Road and rail terminals
+52231,Parking of vehicles
+52290,Auxiliary activities of land transport not elsewhere classified
+52311,Port and terminal management
+52320,Maritime agency activities
+52397,Auxiliary activities of water transport not elsewhere classified
+52401,Activities auxiliary to air transport
+52508,Activities related to the organization of cargo transportation
+53105,Mail Activities
+53202,Pouch and delivery activities
+55108,Hotels and similar
+55906,Other accommodation types not specified above
+56112,Restaurants and other food and beverage service establishments
+56121,Mobile food services
+56201,"Catering, catering and other food preparation services"
+58115,Book publishing
+58123,Publishing of newspapers
+58131,Publishing of magazines
+58191,"Editing lists, lists and other graphic products"
+58212,Edition integrated with book printing
+58221,Integrated edition of newspaper printing
+58239,Integrated editing for magazine printing
+58298,"Editing integrated with the printing of catalogs, lists and other graphic products"
+59111,"Motion picture, video and television program activities"
+59120,"Post-production activities, film, videos and television programs"
+59138,"Cinematographic, video and television programs distribution"
+59146,Cinematographic exhibition activities
+59201,Sound recording and music publishing activities
+60101,Radio activities
+60217,Open television activities
+60225,Programmers and activities related to pay-TV
+61108,Telecommunications
+61205,Wireless telecommunications
+61302,Satellite Telecommunications
+61418,Pay-TV cable operators
+61426,Microwave pay-TV operators
+61434,Pay-TV operators
+61906,Other telecommunications activities
+62015,Development of computer programs to order
+62023,Development and licensing of customizable computer programs
+62031,Development and licensing of non-customizable computer programs
+62040,Consulting in information technology
+62091,"Technical support, maintenance and other services in information technology"
+63119,"Data processing, application service providers and web hosting services"
+63194,"Portals, content providers and other information services on the internet"
+63917,News Agencies
+63992,"Other information service activities, not elsewhere classified"
+64107,central bank
+64212,Commercial Banks
+64221,Multiple banks with commercial portfolios
+64239,Economical boxes
+64247,Cooperative credit
+64310,"Multiple banks, no commercial portfolio"
+64328,Investment Banking
+64336,Development Banks
+64344,Development agencies
+64352,Real Estate Credit
+64361,"Credit, financing and investment companies - financial"
+64379,Microentrepreneur credit societies
+64387,Foreign exchange banks and other non-monetary intermediation institutions
+64409,Lease
+64506,Capitalization companies
+64611,Holdings of financial institutions
+64620,Holdings of non-financial institutions
+64638,"Other holding companies, except holdings"
+64701,Investment Funds
+64913,Trading companies - factoring
+64921,Securitization of credits
+64930,Administration of consortia for the acquisition of goods and rights
+64999,"Other financial service activities, not elsewhere specified or included"
+65111,Life insurance
+65120,Non-life insurance
+65201,Health insurance
+65308,Reinsurance
+65413,Closed pension plan
+65421,Supplementary pension plan
+65502,Health insurance
+66118,Management of exchanges and organized over-the-counter markets
+66126,"Activities of intermediaries in transactions of securities, securities and commodities"
+66134,Credit Card Management
+66193,"Activities auxiliary to financial services, not elsewhere specified or"
+66215,Risk and loss assessment
+66223,"Brokers and insurance agents, pension plans and health insurance"
+66291,"Activities auxiliary to insurance, supplementary pension plans and health insurance plans not previously specified"
+66304,Activities of administration of funds by contract or commission
+68102,Real estate activities on own property
+68218,"Intermediation in the purchase, sale and rental of real estate"
+68226,Management and administration of real estate
+69117,"Legal activities, except notary offices"
+69125,Offices
+69206,"Accounting, bookkeeping and auditing activities, accounting and tax"
+70107,Company headquarters and local administrative units
+70204,Business management consultancy activities
+71111,Architectural services
+71120,Engineering services
+71197,Technical activities related to architecture and engineering
+71201,Technical testing and analysis
+72100,Research and experimental development in the physical and natural sciences
+72207,Research and experimental development in social and human sciences
+73114,Publicity agencies
+73122,"Agency of advertising spaces, except in communication vehicles"
+73190,Advertising activities not elsewhere classified
+73203,Market research and public opinion
+74102,Design and interior decoration
+74200,Photographic and similar activities
+74901,"Professional, scientific and technical activities not elsewhere specified"
+75001,Veterinary activities
+77110,Car rental without driver
+77195,"Rental of means of transport, except motor vehicles, without driver"
+77217,Recreational and sporting equipment rental
+77225,"Rental of video tapes, DVDs and the like"
+77233,"Rental of clothing, jewelry and accessories"
+77292,Rent of personal and household goods not specified above
+77314,Rental of agricultural machinery and equipment without operator
+77322,Rental of construction machinery and equipment without operator
+77331,Rent of machinery and equipment for office
+77390,Rent of machinery and equipment nes
+77403,Management of non-financial intangible assets
+78108,Selection and agency of labor
+78205,Leasing of temporary labor
+78302,Provision and management of human resources for third parties
+79112,Travel Agencies
+79121,Tour Operators
+79902,"Reservation services and other tourist services, not elsewhere classified"
+80111,Surveillance and private security activities
+80129,Transport activities of securities
+80200,Activities of monitoring of security systems
+80307,Private investigation activities
+81117,"Combined services to support buildings, except condominiums"
+81125,Condos
+81214,Cleaning in buildings and in homes
+81222,Immunization and control of urban pests
+81290,Cleaning activities not elsewhere classified
+81303,Landscape Activities
+82113,Combined office and administrative support services
+82199,"Photocopying, document preparation and other specialized administrative support services"
+82202,Telemarketing activities
+82300,"Activities of organization of events, except cultural and sporting activities"
+82911,Collection activities and registration information
+82920,Packing and packaging under contract
+82997,Business activities carried out on a non-profit basis
+84116,General public administration
+84124,"Regulation of health activities, education, cultural services and other social services"
+84132,Regulation of economic activities
+84213,Foreign relations
+84221,Defense
+84230,Justice
+84248,Security and public order
+84256,Civil defense
+84302,Compulsory social security
+85112,Children's education - day care
+85121,Pre-school education
+85139,Elementary School
+85201,High school
+85317,Higher Education - Undergraduate
+85325,Higher Education - Undergraduate and Postgraduate
+85333,Higher Education - Postgraduate and Extension
+85414,Vocational education of technical level
+85422,Vocational education of technological level
+85503,Education support activities
+85911,Sports teaching
+85929,Teaching of art and culture
+85937,Teaching languages
+85996,"Educational activities, not elsewhere classified"
+86101,Hospital care activities
+86216,Mobile emergency services
+86224,"Removal services for patients, except mobile emergency services"
+86305,Ambulatory care activities performed by doctors and dentists
+86402,Activities of diagnostic and therapeutic complementation services
+86500,"Activities of health professionals, except doctors and dentists"
+86607,Health management support activities
+86909,Human health care activities not elsewhere specified
+87115,"Assistance activities for the elderly, the disabled, immunosuppressed and convalescent provided in collective and private residences"
+87123,Activities to provide support infrastructure and home patient care
+87204,"Psychosocial and health care activities for persons with mental disorders, mental disabilities and chemical dependence"
+87301,Social assistance activities provided in collective and private residences
+88006,Social work services without accommodation
+90019,"Performing arts, shows and complementary activities"
+90027,Artistic creation
+90035,"Management of spaces for performing arts, shows and other artistic activities"
+91015,Library and File Activities
+91023,"Activities of museums and exploration, artistic restoration and conservation of historical places and buildings and similar attractions"
+91031,"Activities of botanical gardens, zoos, national parks, ecological reserves and environmental protection areas"
+92003,Gambling and betting activities
+93115,Sports facilities management
+93123,"Social, sports and similar clubs"
+93131,Fitness activities
+93191,Sports activities not previously specified
+93212,Amusement parks and theme parks
+93298,"Recreation and leisure activities, not elsewhere classified"
+94111,Activities of employers 'and employers' associative organizations
+94120,Activities of professional associative organizations
+94201,Activities of trade unions
+94308,Activities of associations of defense of social rights
+94910,Activities of religious organizations
+94928,Activities of political organizations
+94936,Activities of associative organizations linked to culture and art
+94995,Associative activities not previously specified
+95118,Repair and maintenance of computers and peripheral equipment
+95126,Repair and maintenance of communication equipment
+95215,Repair and maintenance of personal and household electrical and electronic equipment
+95291,Repair and maintenance of personal and household objects and equipment
+96017,"Laundries, dry cleaners and towel racks"
+96025,Hairdressing and other beauty treatment activities
+96033,Funeral Services & Related Services
+96092,"Personal service activities, not elsewhere classified"
+97005,Domestic services
+99008,International organizations and other extraterritorial institutions
