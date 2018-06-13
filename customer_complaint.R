@@ -103,7 +103,6 @@ manipulates_complaints_files <- function(df, activities){
 }
 
 translate_categories <- function(df,categories){
-  
   df <- df %>%
     left_join(categories[["ages"]],
               by = c("FaixaEtariaConsumidor" = "FaixaEtariaConsumidor"),
@@ -121,6 +120,7 @@ translate_categories <- function(df,categories){
 }
 
 cleanup_df <- function(df){
+  df$Id <- seq(1,length(df$AnoCalendario))
   df$Regiao <- NULL
   df$strRazaoSocial <- NULL
   df$DescricaoAssunto <- NULL
@@ -130,7 +130,6 @@ cleanup_df <- function(df){
   df$Division <- NULL
   df$Group <- NULL
   df$Class <- NULL
-  df$Id <- seq(1,length(df$AnoCalendario))
   
   variables <- c("complaint_year", "complaint_closed_date", "complaint_entered_date", "consumer_state", "type",
                  "company_number", "company_name", "company_activity_code", "complaint_attended", "consumer_sex",
@@ -159,18 +158,21 @@ cleanup_df <- function(df){
 }
 
 summarisation <- function(df,column){
-  df <- df %>%
+  df %>%
     mutate(complaint_duration = if_else(complaint_attended == "Y", 
                                         round(difftime(complaint_closed_date,
                                                  complaint_entered_date,
-                                                 units = c("days")),digits = 0),
+                                                 units = c("weeks")),digits = 0),
                                         NA_real_)) %>%
     group_by_(column) %>%
     summarise(complaints_total = n(),
               complaints_solved = sum(complaint_attended == "Y"),
               complaints_issue_variation = n_distinct(complaint_issue_type),
               complaints_average_duration = round(mean(complaint_duration,
-                                            na.rm = T),digits = 2))
+                                            na.rm = T),digits = 2)) %>%
+    mutate(complaints_average_duration = if_else(condition = is.nan(complaints_average_duration),
+                                                 true = NA_real_,
+                                                 false = as.numeric(complaints_average_duration)))
 }
 
 # Loading Files names
@@ -197,39 +199,46 @@ df <- cleanup_df(df)
 sector_summary <- summarisation(df,"company_sector")
 
 company_summary <- summarisation(df,"company_name") %>%
-  filter(!is.na(company_name) & 
-           complaints_total >= 10 &
-           complaints_solved)
+  filter(!is.na(company_name))
 
-test <- company_summary %>%
-  filter(complaints_total >= 20) %>%
-  mutate(complaints_solved_percentage = complaints_solved/complaints_total)
-
-test2 <- company_summary %>%
-  filter(complaints_total >= 20) %>%
-  mutate(index = ((complaints_total - complaints_solved) * complaints_issue_variation * complaints_average_duration)/complaints_total)
-
-df %>%
-  filter(!is.na(company_sector)) %>%
-  mutate(company_sector = fct_infreq(fct_lump(company_sector, 10))) %>%
-  count(company_sector) %>%
-  ggplot() + 
-  geom_bar(aes(company_sector,
-               n,
-               fill = company_sector),
-           stat = "identity") + 
-  coord_flip()
-
-ggplot(sector_summary) + 
-  geom_bar(aes(x=company_sector,
-               y=value,
-               fill=variable),
-           stat = "identity",
-           position="dodge") + 
-  coord_flip()
-
-ggplot(company_summary %>%
-         filter(!is.na(company_sector))) + 
-  geom_point(aes(complaints_total,
-                 complaints_solved,
-                 colour=company_sector))
+# df %>%
+#   group_by(complaint_year) %>%
+#   summarise(resolution_rate = mean(complaint_attended == "Y", na.rm = T))
+# 
+#  test <- company_summary %>%
+#   filter(complaints_total >= 20) %>%
+#   mutate(complaints_solved_percentage = complaints_solved/complaints_total)
+# 
+# test2 <- company_summary %>%
+#   filter(complaints_total >= 20) %>%
+#   mutate(index = ((complaints_total - complaints_solved) * complaints_issue_variation * complaints_average_duration)/complaints_total)
+# 
+# df %>%
+#   filter(!is.na(company_sector)) %>%
+#   mutate(company_sector = fct_infreq(fct_lump(company_sector, 10))) %>%
+#   count(company_sector) %>%
+#   ggplot() + 
+#   geom_bar(aes(company_sector,
+#                n,
+#                fill = company_sector),
+#            stat = "identity") + 
+#   coord_flip()
+# 
+# ggplot(sector_summary) + 
+#   geom_bar(aes(x=company_sector,
+#                y=value,
+#                fill=variable),
+#            stat = "identity",
+#            position="dodge") + 
+#   coord_flip()
+# 
+# table(df %>%
+#         filter(consumer_sex %in% c("F","M") & 
+#                  complaint_attended == "Y") %>%
+#         select(consumer_age,consumer_sex))
+# 
+# ggplot(company_summary %>%
+#          filter(!is.na(company_sector))) + 
+#   geom_point(aes(complaints_total,
+#                  complaints_solved,
+#                  colour=company_sector))

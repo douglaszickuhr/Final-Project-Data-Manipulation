@@ -35,7 +35,7 @@ fillNAgaps <- function(x, firstBack=FALSE) {
 }
 
 # Function to auth on google
-authGoogle <- function(json){
+auth_google <- function(json){
   gl_auth(json)
 }
 
@@ -61,4 +61,9 @@ write_file_with_path <- function(df,
                                  filename){
   write_csv(df, 
             paste0(path, filename))
+}
+
+rescale01 <- function(x) {
+  y <- range(x,na.rm = T)
+  (x-y[1])/(y[2]-y[1])
 }
