@@ -130,13 +130,11 @@ cleanup_df <- function(df){
   df$Division <- NULL
   df$Group <- NULL
   df$Class <- NULL
-  df$Id <- seq(1,length(df$AnoCalendario))
   
   variables <- c("complaint_year", "complaint_closed_date", "complaint_entered_date", "consumer_state", "type",
                  "company_number", "company_name", "company_activity_code", "complaint_attended", "consumer_sex",
                  "consumer_post_code", "company_subclass", "company_sector", "company_division", "company_group",
-                 "company_class", "consumer_age", "complaint_issue_type", "consumer_region", "complaint_subject",
-                 "complaint_id")
+                 "company_class", "consumer_age", "complaint_issue_type", "consumer_region", "complaint_subject")
   names(df) <- variables
   df %>% 
     mutate(complaint_issue_type = factor(complaint_issue_type),
@@ -150,26 +148,23 @@ cleanup_df <- function(df){
            company_class = factor(company_class),
            company_subclass = factor(company_subclass)
            ) %>%
-    mutate(company_sector = str_to_title(company_sector),
-           company_division = str_to_title(company_division),
-           company_group = str_to_title(company_group)) %>%
-    select(complaint_id, complaint_year, complaint_entered_date, complaint_closed_date, complaint_subject, complaint_issue_type, complaint_attended,
+    select(complaint_year, complaint_entered_date, complaint_closed_date, complaint_subject, complaint_issue_type, complaint_attended,
            consumer_region, consumer_post_code, consumer_state, consumer_age, consumer_sex,  
            company_number, company_name, company_activity_code, company_sector, company_division, company_group, company_class, company_subclass)
 }
 
-summarisation <- function(df,column){
+sector_summarisation <- function(df){
   df <- df %>%
     mutate(complaint_duration = if_else(complaint_attended == "Y", 
                                         round(difftime(complaint_closed_date,
                                                  complaint_entered_date,
                                                  units = c("days")),digits = 0),
                                         NA_real_)) %>%
-    group_by_(column) %>%
+    group_by(company_sector) %>%
     summarise(complaints_total = n(),
               complaints_solved = sum(complaint_attended == "Y"),
               complaints_issue_variation = n_distinct(complaint_issue_type),
-              complaints_average_duration = round(mean(complaint_duration,
+              complaint_average_duration = round(mean(complaint_duration,
                                             na.rm = T),digits = 2))
 }
 
@@ -194,31 +189,12 @@ df <- translate_categories(df,categories)
 
 df <- cleanup_df(df)
 
-sector_summary <- summarisation(df,"company_sector")
-
-company_summary <- summarisation(df,"company_name") %>%
-  filter(!is.na(company_name) & 
-           complaints_total >= 10 &
-           complaints_solved)
-
-test <- company_summary %>%
-  filter(complaints_total >= 20) %>%
-  mutate(complaints_solved_percentage = complaints_solved/complaints_total)
-
-test2 <- company_summary %>%
-  filter(complaints_total >= 20) %>%
-  mutate(index = ((complaints_total - complaints_solved) * complaints_issue_variation * complaints_average_duration)/complaints_total)
-
-df %>%
-  filter(!is.na(company_sector)) %>%
-  mutate(company_sector = fct_infreq(fct_lump(company_sector, 10))) %>%
-  count(company_sector) %>%
-  ggplot() + 
-  geom_bar(aes(company_sector,
-               n,
-               fill = company_sector),
-           stat = "identity") + 
-  coord_flip()
+sector_summary <- sector_summarisation(df)
+sector_summary <- sector_summary %>%
+  select(company_sector,
+         complaints_total,
+         complaints_solved) %>%
+  melt()
 
 ggplot(sector_summary) + 
   geom_bar(aes(x=company_sector,
@@ -228,8 +204,18 @@ ggplot(sector_summary) +
            position="dodge") + 
   coord_flip()
 
-ggplot(company_summary %>%
-         filter(!is.na(company_sector))) + 
-  geom_point(aes(complaints_total,
-                 complaints_solved,
-                 colour=company_sector))
+test <- df %>%
+  mutate(complaint_duration = if_else(complaint_attended == "Y", 
+                                      round(difftime(complaint_closed_date,
+                               y                       complaint_entered_date,
+                                                     units = c("days")),digits = 0),
+                                      NA_real_)) %>%
+  group_by(company_name) %>%
+  summarise(complaints_total = n(),
+            complaints_solved = sum(complaint_attended == "Y"),
+            complaints_issue_variation = n_distinct(complaint_issue_type),
+            complaint_average_duration = round(mean(complaint_duration,
+                                                    na.rm = T),digits = 2))
+  
+
+

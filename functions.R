@@ -1,6 +1,5 @@
 library(googleLanguageR)
 
-# Function to translate text
 fillNAgaps <- function(x, firstBack=FALSE) {
   ## NA's in a vector or factor are replaced with last non-NA values
   ## If firstBack is TRUE, it will fill in leading NA's with the first
@@ -17,8 +16,10 @@ fillNAgaps <- function(x, firstBack=FALSE) {
   
   # These are the non-NA values from x only
   # Add a leading NA or take the first good value, depending on firstBack   
-  if (firstBack)   goodVals <- c(x[goodIdx][1], x[goodIdx])
-  else             goodVals <- c(NA,            x[goodIdx])
+  if (firstBack)   
+    goodVals <- c(x[goodIdx][1], x[goodIdx])
+  else             
+    goodVals <- c(NA, x[goodIdx])
   
   # Fill the indices of the output vector with the indices pulled from
   # these offsets of goodVals. Add 1 to avoid indexing to zero.
@@ -35,7 +36,7 @@ fillNAgaps <- function(x, firstBack=FALSE) {
 }
 
 # Function to auth on google
-authGoogle <- function(json){
+auth_google <- function(json){
   gl_auth(json)
 }
 
@@ -61,4 +62,9 @@ write_file_with_path <- function(df,
                                  filename){
   write_csv(df, 
             paste0(path, filename))
+}
+
+rescale01 <- function(x) {
+  y <- range(x,na.rm = T)
+  (x-y[1])/(y[2]-y[1])
 }
